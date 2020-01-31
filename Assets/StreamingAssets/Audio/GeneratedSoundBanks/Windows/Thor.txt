@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Default Work Unit\Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	893082637	Phrase 2	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Windows\SFX\Phrase 2_07BF872D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Phrase 2		2498680
+

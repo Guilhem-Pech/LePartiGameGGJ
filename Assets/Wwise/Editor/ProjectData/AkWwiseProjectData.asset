@@ -31,8 +31,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: bfe369782b82ca4c8bd89526088a0210
     GuidInternal: 
-    m_lastTime: -8586210995285037013
-    List: []
+    m_lastTime: -8586210964955401306
+    List:
+    - name: Thor
+      guid: ff4b996bd103f24da1347106e8ac5ab4
+      id: 3224952238
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Thor
+        ObjectType: 7
+      Path: Default Work Unit\Thor
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 

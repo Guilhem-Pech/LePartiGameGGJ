@@ -11,18 +11,7 @@
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "D:\\Users\\guilh\\Unity\\ggj\\GGJThorWwise\\GeneratedSoundBanks\\Windows"
   },
-  "DialogueEvents": [],
-  "StreamedFiles": [],
-  "MediaFilesNotInAnyBank": [],
   "SoundBanks": [
-   {
-    "Id": "1355168291",
-    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
-    "Language": "SFX",
-    "ObjectPath": "Init",
-    "ShortName": "Init",
-    "Path": "Init.bnk"
-   },
    {
     "Id": "3224952238",
     "GUID": "{6B994BFF-03D1-4DF2-A134-7106E8AC5AB4}",

@@ -22,6 +22,33 @@
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
+   },
+   {
+    "Id": "3224952238",
+    "GUID": "{6B994BFF-03D1-4DF2-A134-7106E8AC5AB4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Thor",
+    "ShortName": "Thor",
+    "Path": "Thor.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test",
+      "GUID": "{4707E8F7-9A9A-4C7D-85D0-76739AAE7B43}",
+      "DurationType": "OneShot",
+      "DurationMin": "13.013633",
+      "DurationMax": "13.013633"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "893082637",
+      "Language": "SFX",
+      "ShortName": "Phrase 2.wav",
+      "Path": "SFX\\Phrase 2_07BF872D.wem"
+     }
+    ]
    }
   ]
  }
