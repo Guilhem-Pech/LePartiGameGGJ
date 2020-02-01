@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Data;
 using TMPro;
@@ -20,9 +21,18 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI hammerPowerDebug;
     public TextMeshProUGUI currentState;
     public Hammer hammerUI;
-    
-    
-    public float HammerPower { get; set; } = 0f;
+
+
+    public float HammerPower
+    {
+        get => _hammerPower;
+        set
+        {
+            _hammerPower = value;
+            if (hammerUI)
+                hammerUI.FillLevel = Mathf.FloorToInt(value);
+        }
+    }
 
     private void Start()
     {
@@ -43,13 +53,10 @@ public class GameManager : MonoBehaviour
        else  Instance = this;
     }
 
-    private int oldLevel = 0;
+    private float _hammerPower;
+
     private void Update()
     {
-        if(oldLevel != hammerUI.FillLevel)
-            hammerUI.FillLevel = Mathf.FloorToInt(HammerPower); // I know this is weird but look the property it'll work eventually
-        oldLevel = Mathf.FloorToInt(HammerPower);  
-        
         if(hammerPowerDebug)
             hammerPowerDebug.SetText(HammerPower.ToString("N"));
     }
