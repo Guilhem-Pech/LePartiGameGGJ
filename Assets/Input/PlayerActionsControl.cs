@@ -217,7 +217,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""df1c9034-cbad-4bbd-a279-3d5221dd1a71"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
