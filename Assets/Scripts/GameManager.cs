@@ -40,6 +40,9 @@ public class GameManager : MonoBehaviour
             if (_percentage) _percentage.SetInt(p);
         }
     }
+
+    public float NailProgress { get; set; }
+
     private void Start()
     {
         _animator = GetComponent<Animator>();

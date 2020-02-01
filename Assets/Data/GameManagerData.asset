@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: GameManagerData
   m_EditorClassIdentifier: 
   idleAddForce: 2
-  decreasePowerPerSecond: 5
+  decreasePowerPerSecond: 10
   minHammerPowerEnteringMinigame: 10
   smashAddForce: 2
   thresholdReturnToIdle: 8
+  minTimerMinigame: 5
+  maxTimerMinigame: 7
+  kaboomThreshold: 25
+  levelOneThunderbolt: 10
+  levelTwoThunderbolt: 20
+  levelThreeThunderbolt: 26
