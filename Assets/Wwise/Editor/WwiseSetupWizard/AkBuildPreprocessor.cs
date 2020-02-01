@@ -24,9 +24,13 @@ public partial class AkBuildPreprocessor
 			case UnityEditor.BuildTarget.tvOS:
 				return "iOS";
 
+#pragma warning disable 618
 			case UnityEditor.BuildTarget.StandaloneLinux:
+#pragma warning restore 618
 			case UnityEditor.BuildTarget.StandaloneLinux64:
+#pragma warning disable 618
 			case UnityEditor.BuildTarget.StandaloneLinuxUniversal:
+#pragma warning restore 618
 				return "Linux";
 
 #if UNITY_2017_3_OR_NEWER
