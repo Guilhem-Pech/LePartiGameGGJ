@@ -25,8 +25,8 @@ namespace States
             if(_gameManager.HammerPower > _gameManager.gameManagerData.minHammerPowerEnteringMinigame)
                 _animator.SetTrigger(NextState);
 
-            
-            
+            _gameManager.WitchDeviceWasUse(arg0.control.device);
+
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

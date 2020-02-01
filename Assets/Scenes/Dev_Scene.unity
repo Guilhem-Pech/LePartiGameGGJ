@@ -610,6 +610,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerInput: {fileID: 1831190728}
   gameManagerData: {fileID: 11400000, guid: 5dee98bfcc7fd3744945ba346c31d1f4, type: 2}
+  buttonIcon:
+  - Name: XBox
+    sprite: {fileID: 21300000, guid: 871da4d9fc365e246877e67a101f65dd, type: 3}
+  - Name: PS4
+    sprite: {fileID: 21300000, guid: 632b089ebf6740649b8b184890e461f0, type: 3}
+  - Name: PC
+    sprite: {fileID: 21300000, guid: 156fa5f68d7b92d43ad57da16ddfc58a, type: 3}
   hammerPowerDebug: {fileID: 468339846}
   currentState: {fileID: 1133866767}
   hammerUI: {fileID: 1659447372}
