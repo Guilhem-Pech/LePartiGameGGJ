@@ -6,6 +6,7 @@ using TMPro;
 using UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI hammerPowerDebug;
     public TextMeshProUGUI currentState;
     public Hammer hammerUI;
-
+    public Image buttonImage;
 
     public float HammerPower
     {

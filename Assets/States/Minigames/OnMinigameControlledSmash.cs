@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace States.Minigames
@@ -25,6 +26,7 @@ namespace States.Minigames
         private void OnUse(InputAction.CallbackContext callbackContext)
         {
             _gameManager.HammerPower += _gameManager.gameManagerData.smashAddForce;
+
         }
 
         public override void OnStateExit(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo,
