@@ -14,6 +14,7 @@ namespace States
            int chosen = Random.Range(1, animator.GetInteger(TotalMinigame)); 
            animator.SetInteger(RandomMinigame, chosen);
            animator.SetTrigger(NextState);
+           GameManager.Instance.currentState.SetText("Raising");
         }
     }
 }
