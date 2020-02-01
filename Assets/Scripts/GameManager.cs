@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private PlayerInput _playerInput;
+
+    [Header("Data to modify to tweak the values, made for the Game Designer")] public GameManagerData gameManagerData;
 
     public float HammerPower { get; set; } = 0f;
     public PlayerInput GetPlayerInput()
