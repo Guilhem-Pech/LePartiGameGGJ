@@ -211,6 +211,17 @@
                     "action": "Use",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa58677f-bc19-456f-b1e8-99e30cf9abee",
+                    "path": "<HID::SZ-MYPOWER PC Gamepad>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Gamepad",
+                    "action": "Use",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -774,6 +785,17 @@
             "devices": [
                 {
                     "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "PC Gamepad",
+            "bindingGroup": "PC Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<HID::SZ-MYPOWER PC Gamepad>",
                     "isOptional": false,
                     "isOR": false
                 }

@@ -224,6 +224,17 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""action"": ""Use"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fa58677f-bc19-456f-b1e8-99e30cf9abee"",
+                    ""path"": ""<HID::SZ-MYPOWER PC Gamepad>/button3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""PC Gamepad"",
+                    ""action"": ""Use"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -791,6 +802,17 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""isOR"": false
                 }
             ]
+        },
+        {
+            ""name"": ""PC Gamepad"",
+            ""bindingGroup"": ""PC Gamepad"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<HID::SZ-MYPOWER PC Gamepad>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
         }
     ]
 }");
@@ -1080,6 +1102,15 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
         {
             if (m_XRSchemeIndex == -1) m_XRSchemeIndex = asset.FindControlSchemeIndex("XR");
             return asset.controlSchemes[m_XRSchemeIndex];
+        }
+    }
+    private int m_PCGamepadSchemeIndex = -1;
+    public InputControlScheme PCGamepadScheme
+    {
+        get
+        {
+            if (m_PCGamepadSchemeIndex == -1) m_PCGamepadSchemeIndex = asset.FindControlSchemeIndex("PC Gamepad");
+            return asset.controlSchemes[m_PCGamepadSchemeIndex];
         }
     }
     public interface IPlayerActions
