@@ -27,15 +27,17 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI currentState;
     public Hammer hammerUI;
     public Image buttonImage;
-
+    public Percentage _percentage;
     public float HammerPower
     {
         get => _hammerPower;
         set
         {
             _hammerPower = value;
+            int p = Mathf.FloorToInt(value);
             if (hammerUI)
-                hammerUI.FillLevel = Mathf.FloorToInt(value);
+                hammerUI.FillLevel = p;
+            if (_percentage) _percentage.SetInt(p);
         }
     }
     private void Start()

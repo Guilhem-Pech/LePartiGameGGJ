@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 
 namespace States
 {
@@ -10,6 +11,8 @@ namespace States
             int layerIndex)
         {
             GameManager.Instance.currentState.SetText("KABOOOOM");
+            DOTween.To(() => GameManager.Instance.HammerPower, value => GameManager.Instance.HammerPower = value, 0,
+                5 * 0.9f);
             
         }
 
