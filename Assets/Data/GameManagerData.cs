@@ -16,5 +16,6 @@ namespace Data
         public int levelOneThunderbolt = 10;
         public int levelTwoThunderbolt = 20;
         public int levelThreeThunderbolt = 26;
+        public float shakeMin = 10f;
     }
 }

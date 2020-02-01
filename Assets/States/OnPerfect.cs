@@ -14,7 +14,11 @@ namespace States
             int layerIndex)
         {
             GameManager.Instance.currentState.SetText("YOU NAILED IT");
-            GameManager.Instance.NailProgress += (int)GameManager.Instance.HammerPower / 100f;
+
+            GameManager.Instance.NailProgress += (int) GameManager.Instance.HammerPower < 20f
+                ? (int) (GameManager.Instance.HammerPower * 0.5)
+                : (int) GameManager.Instance.HammerPower;
+
             Timer.Register(5f,() => animator.SetTrigger(GameManager.Instance.NailProgress < 1f ? PrevState : NextState));
             
             DOTween.To(() => GameManager.Instance.HammerPower, value => GameManager.Instance.HammerPower = value, 0,

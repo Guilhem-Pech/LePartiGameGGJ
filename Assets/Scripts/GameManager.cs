@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Data;
+using DG.Tweening;
 using TMPro;
 using UI;
 using UnityEngine;
@@ -17,7 +18,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     private Animator _animator;
     [SerializeField]
-    private PlayerInput _playerInput;
+    private PlayerInput playerInput;
     
     [Header("Data to modify to tweak the values, made for the Game Designer")] public GameManagerData gameManagerData;
     public ButtonIcon[] buttonIcon;
@@ -26,8 +27,9 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI hammerPowerDebug;
     public TextMeshProUGUI currentState;
     public Hammer hammerUI;
+    public Tweener hammerUIanim;
     public Image buttonImage;
-    public Percentage _percentage;
+    public Percentage percentage;
     public float HammerPower
     {
         get => _hammerPower;
@@ -37,7 +39,11 @@ public class GameManager : MonoBehaviour
             int p = Mathf.FloorToInt(value);
             if (hammerUI)
                 hammerUI.FillLevel = p;
-            if (_percentage) _percentage.SetInt(p);
+            if (percentage) percentage.SetInt(p);
+            if (value > gameManagerData.shakeMin && !hammerUIanim.IsPlaying())
+                hammerUIanim.Play();
+            else if (value <= gameManagerData.shakeMin && hammerUIanim.IsActive())
+                hammerUIanim.Pause();
         }
     }
 
@@ -46,6 +52,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        hammerUIanim = hammerUI.transform.DOShakePosition(1,5,10,90f,false,false).SetLoops(-1,LoopType.Yoyo).Pause();
     }
 
     public Sprite GetUseButtonSprite(InputDevice inputDevice)
@@ -70,7 +77,7 @@ public class GameManager : MonoBehaviour
     
     public PlayerInput GetPlayerInput()
     {
-        return _playerInput;
+        return playerInput;
     }
 
 

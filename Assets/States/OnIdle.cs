@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace States
@@ -31,7 +32,7 @@ namespace States
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            if(_gameManager.HammerPower > 0)
+            if (_gameManager.HammerPower > 0)
                 _gameManager.HammerPower -= _gameManager.gameManagerData.decreasePowerPerSecond * Time.deltaTime;
             else
                 _gameManager.HammerPower = 0;

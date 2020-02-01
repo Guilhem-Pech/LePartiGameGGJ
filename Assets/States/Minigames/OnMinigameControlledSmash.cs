@@ -33,7 +33,7 @@ namespace States.Minigames
             int layerIndex)
         {
             _gameManager.GetPlayerInput().actions.FindAction("Use").performed -= OnUse;
-            _gameManager._percentage.SetFixInt((int) _gameManager.HammerPower);
+            _gameManager.percentage.SetFixInt((int) _gameManager.HammerPower);
         }
 
         public override void OnStateUpdate(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo,
