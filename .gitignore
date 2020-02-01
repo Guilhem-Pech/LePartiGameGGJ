@@ -26,6 +26,9 @@
 # Visual Studio cache directory
 .vs/
 
+# Visual Studio cache directory
+.idea/
+
 # Gradle cache directory
 .gradle/
 
@@ -61,4 +64,11 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+#WWise gitignore
+.cache/
+*.akd
+*.validationcache
+[Aa]ssets/WwiseSettings.xml
+[Aa]ssets/WwiseSettings.xml.meta
 
