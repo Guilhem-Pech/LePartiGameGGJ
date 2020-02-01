@@ -1,21 +1,37 @@
-﻿namespace States
+﻿using UnityEngine;
+using UnityEngine.InputSystem;
+
+namespace States
 {
-    public class OnIdle : UnityEngine.StateMachineBehaviour
+    public class OnIdle : StateMachineBehaviour
     {
-        public override void OnStateEnter(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo,
+        private GameManager _gameManager;
+        private Animator _animator;
+        private static readonly int NextState = Animator.StringToHash("NextState");
+        private InputAction _useAction;
+        
+        
+        public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
         {
-            
+            _animator = animator;
+            _gameManager = GameManager.Instance;
+            _useAction =  _gameManager.GetPlayerInput().actions.FindAction("Use");
+            _useAction.performed += OnUse;
+        
         }
 
-        public override void OnStateExit(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo,
-            int layerIndex)
+        private void OnUse(InputAction.CallbackContext arg0)
         {
+            // If A is pressed, raise hand !
+            _animator.SetTrigger(NextState);
+            _gameManager.HammerPower += 2;
         }
 
-        public override void OnStateUpdate(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo,
+        public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
         {
+            _useAction.performed -= OnUse;
         }
     }
 }

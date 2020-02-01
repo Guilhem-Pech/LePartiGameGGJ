@@ -195,14 +195,17 @@ public class AkPluginActivator
 			case UnityEditor.BuildTarget.tvOS:
 				return "tvOS";
 
+#pragma warning disable 618
 			case UnityEditor.BuildTarget.StandaloneLinux:
 				UnityEngine.Debug.LogError("WwiseUnity: The Linux Wwise Unity integration does not support the 32 bits architecture");
+
 				return "Linux";
-				
+#pragma warning restore 618
 			case UnityEditor.BuildTarget.StandaloneLinux64:
+#pragma warning disable 618
 			case UnityEditor.BuildTarget.StandaloneLinuxUniversal:
 				return "Linux";
-
+#pragma warning restore 618
 #if UNITY_2017_3_OR_NEWER
 			case UnityEditor.BuildTarget.StandaloneOSX:
 #else
@@ -385,15 +388,23 @@ public class AkPluginActivator
 
 					if (pluginArch == "x86")
 					{
+#pragma warning disable 618
 						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux, "CPU", "x86");
+#pragma warning restore 618
 						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux64, "CPU", "None");
+#pragma warning disable 618
 						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinuxUniversal, "CPU", "x86");
+#pragma warning restore 618
 					}
 					else if (pluginArch == "x86_64")
 					{
+#pragma warning disable 618
 						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux, "CPU", "None");
+#pragma warning restore 618
 						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux64, "CPU", "x86_64");
+#pragma warning disable 618
 						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinuxUniversal, "CPU", "x86_64");
+#pragma warning restore 618
 					}
 					else
 					{
@@ -414,9 +425,13 @@ public class AkPluginActivator
 
 				case "Mac":
 					pluginConfig = splitPath[5];
+#pragma warning disable 618
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux, "CPU", "None");
+#pragma warning restore 618
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux64, "CPU", "None");
+#pragma warning disable 618
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinuxUniversal, "CPU", "None");
+#pragma warning restore 618
 
 #if UNITY_2017_3_OR_NEWER
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneOSX, "CPU", "AnyCPU");
@@ -473,9 +488,13 @@ public class AkPluginActivator
 						continue;
 					}
 
+#pragma warning disable 618
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux, "CPU", "None");
+#pragma warning restore 618
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinux64, "CPU", "None");
+#pragma warning disable 618
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneLinuxUniversal, "CPU", "None");
+#pragma warning restore 618
 #if UNITY_2017_3_OR_NEWER
 					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.StandaloneOSX, "CPU", "None");
 #else
