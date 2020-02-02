@@ -1180,6 +1180,15 @@ MonoBehaviour:
   hammerUI: {fileID: 51632684}
   buttonImage: {fileID: 296397586}
   percentage: {fileID: 1362870010}
+  backgroundAnimator: {fileID: 1258912926}
+  thorAnimator: {fileID: 879428424}
+  canvasUI: {fileID: 1924641695}
+  onFailedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onSuccessEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &521691963
 Transform:
   m_ObjectHideFlags: 0
@@ -1243,7 +1252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &868847799
 Transform:
   m_ObjectHideFlags: 0
@@ -1318,6 +1327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879428423}
   - component: {fileID: 879428424}
+  - component: {fileID: 879428425}
   m_Layer: 0
   m_Name: Thor
   m_TagString: Untagged
@@ -1364,6 +1374,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &879428425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879428422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6597e20752eb6ab41816c3504c3c7d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907631192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2862,13 +2884,14 @@ GameObject:
   - component: {fileID: 1924641695}
   - component: {fileID: 1924641694}
   - component: {fileID: 1924641693}
+  - component: {fileID: 1924641697}
   m_Layer: 5
   m_Name: Canvas - UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1924641693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2952,6 +2975,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &1924641697
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924641692}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &2114062422
 GameObject:
   m_ObjectHideFlags: 0

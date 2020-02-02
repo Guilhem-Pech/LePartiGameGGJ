@@ -20,6 +20,7 @@ namespace States.Minigames
             _gameManager.currentState.SetText("Minigame");
             _gameManager.GetPlayerInput().actions.FindAction("Use").performed += OnUse;
             _timerEnd = _gameManager.GetTimerMinigameEnd();
+            
         }
 
 

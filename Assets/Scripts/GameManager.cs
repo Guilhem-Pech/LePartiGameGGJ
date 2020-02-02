@@ -7,6 +7,7 @@ using DG.Tweening;
 using TMPro;
 using UI;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.DualShock;
 using UnityEngine.InputSystem.XInput;
@@ -30,11 +31,18 @@ public class GameManager : MonoBehaviour
     public Tweener hammerUIanim;
     public Image buttonImage;
     public Percentage percentage;
+    public Animator backgroundAnimator;
+    public Animator thorAnimator;
+    public Canvas canvasUI;
+    public UnityEvent onFailedEvent;
+    public UnityEvent onSuccessEvent;
+    
     public float HammerPower
     {
         get => _hammerPower;
         set
         {
+            Debug.Log(value);
             _hammerPower = value;
             int p = Mathf.FloorToInt(value);
             if (hammerUI)
@@ -47,7 +55,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public float NailProgress { get; set; }
+    public int NailProgress
+    {
+        get
+        {
+            Debug.Log("NAIL PROGRESS: " + _nailProgress);
+            return _nailProgress;
+        } 
+        set => _nailProgress = value;
+    }
 
     private void Start()
     {
@@ -89,6 +105,8 @@ public class GameManager : MonoBehaviour
     }
 
     private float _hammerPower;
+    private int _nailProgress;
+
 
     private void Update()
     {
@@ -110,6 +128,11 @@ public class GameManager : MonoBehaviour
     public void WitchDeviceWasUse(InputDevice controlDevice)
     {
         buttonImage.sprite = GetUseButtonSprite(controlDevice);
+    }
+
+    public void ShowUI(bool show = true)
+    {
+        // TODO The method
     }
 }
 

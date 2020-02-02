@@ -14,15 +14,15 @@ namespace States
             int layerIndex)
         {
             GameManager.Instance.currentState.SetText("YOU NAILED IT");
+            GameManager.Instance.onSuccessEvent.Invoke();
 
             GameManager.Instance.NailProgress += (int) GameManager.Instance.HammerPower < 20f
                 ? (int) (GameManager.Instance.HammerPower * 0.5)
                 : (int) GameManager.Instance.HammerPower;
 
-            Timer.Register(5f,() => animator.SetTrigger(GameManager.Instance.NailProgress < 1f ? PrevState : NextState));
-            
-            DOTween.To(() => GameManager.Instance.HammerPower, value => GameManager.Instance.HammerPower = value, 0,
-                5 * 0.7f);
+            Timer.Register(5f,() => animator.SetTrigger(GameManager.Instance.NailProgress < 100 ? PrevState : NextState));
+            CanvasGroup canvasGroup = GameManager.Instance.canvasUI.GetComponent<CanvasGroup>();
+            DOTween.To(() => canvasGroup.alpha, value => canvasGroup.alpha = value, 0f, 1);
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,

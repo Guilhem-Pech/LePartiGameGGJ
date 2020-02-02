@@ -10,6 +10,7 @@ namespace States
         private Animator _animator;
         private static readonly int NextState = Animator.StringToHash("NextState");
         private InputAction _useAction;
+        private CanvasGroup canvasGroup;
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
         {
@@ -18,6 +19,7 @@ namespace States
             _useAction =  _gameManager.GetPlayerInput().actions.FindAction("Use");
             _useAction.performed += OnUse;
             _gameManager.currentState.SetText("Idle");
+            canvasGroup = _gameManager.canvasUI.GetComponent<CanvasGroup>();
         }
 
         private void OnUse(InputAction.CallbackContext arg0)
@@ -33,7 +35,13 @@ namespace States
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             if (_gameManager.HammerPower > 0)
+            {
                 _gameManager.HammerPower -= _gameManager.gameManagerData.decreasePowerPerSecond * Time.deltaTime;
+                if (_gameManager.HammerPower > 2f && canvasGroup.alpha <= 0f)
+                {
+                    DOTween.To(() => canvasGroup.alpha, value => canvasGroup.alpha = value, 1f, 0.5f);
+                }
+            }
             else
                 _gameManager.HammerPower = 0;
         }

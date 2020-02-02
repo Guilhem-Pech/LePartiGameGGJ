@@ -23,7 +23,6 @@ namespace UI
         }
         public void SetInt(int text, int max = 25)
         {
-            Debug.Log(text);
             if (text <= max)
             {
                 _options?.Kill();
