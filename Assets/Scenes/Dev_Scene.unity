@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 51632683}
   - component: {fileID: 51632684}
+  - component: {fileID: 51632685}
   m_Layer: 5
   m_Name: Hammer
   m_TagString: Untagged
@@ -174,6 +175,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thunderbolt: {fileID: 907631194}
   fillHammer: {fileID: 1659447371}
+--- !u!225 &51632685
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51632682}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &162674319
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +246,8 @@ GameObject:
   - component: {fileID: 296397585}
   - component: {fileID: 296397587}
   - component: {fileID: 296397586}
+  - component: {fileID: 296397589}
+  - component: {fileID: 296397588}
   m_Layer: 5
   m_Name: B_Logo
   m_TagString: Untagged
@@ -257,7 +272,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 622, y: -323}
-  m_SizeDelta: {x: 86, y: 88}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296397586
 MonoBehaviour:
@@ -277,7 +292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 871da4d9fc365e246877e67a101f65dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cdbf09f4d95969440b462ad37826e33c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -295,6 +310,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296397584}
   m_CullTransparentMesh: 0
+--- !u!95 &296397588
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296397584}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 2194c8b456213fa4da006804d811a1b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!225 &296397589
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296397584}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &301480793
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &468339845
 RectTransform:
   m_ObjectHideFlags: 0
@@ -919,7 +965,8 @@ MonoBehaviour:
   percentage: {fileID: 1362870010}
   backgroundAnimator: {fileID: 1258912926}
   thorAnimator: {fileID: 879428424}
-  canvasUI: {fileID: 1924641695}
+  canvasUIHammer: {fileID: 51632685}
+  canvasUIButton: {fileID: 0}
   onFailedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1351,7 +1398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1133866766
 RectTransform:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ using Data;
 using DG.Tweening;
 using TMPro;
 using UI;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -34,7 +35,8 @@ public class GameManager : MonoBehaviour
     public Percentage percentage;
     public Animator backgroundAnimator;
     public Animator thorAnimator;
-    public Canvas canvasUI;
+    public CanvasGroup canvasUIHammer;
+    public CanvasGroup canvasUIButton;
     public UnityEvent onFailedEvent;
     public UnityEvent onSuccessEvent;
     public Transform nailTransform;
@@ -76,7 +78,7 @@ public class GameManager : MonoBehaviour
         hammerUIanim = hammerUI.transform.DOShakePosition(1,5,10,90f,false,false).SetLoops(-1,LoopType.Yoyo).Pause();
     }
 
-    public Sprite GetUseButtonSprite(InputDevice inputDevice)
+    public RuntimeAnimatorController GetUseButtonSprite(InputDevice inputDevice)
     {
         switch (inputDevice)
         {
@@ -120,7 +122,7 @@ public class GameManager : MonoBehaviour
     }
     
     
-    public Sprite GetSprite(string m)
+    public RuntimeAnimatorController GetSprite(string m)
     {
         return (from icon in buttonIcon where icon.Name == m select icon.sprite).FirstOrDefault();
     }
@@ -132,12 +134,19 @@ public class GameManager : MonoBehaviour
 
     public void WitchDeviceWasUse(InputDevice controlDevice)
     {
-        buttonImage.sprite = GetUseButtonSprite(controlDevice);
+        buttonImage.gameObject.GetComponent<Animator>().runtimeAnimatorController = GetUseButtonSprite(controlDevice);
     }
 
     public void ShowUI(bool show = true)
     {
-        // TODO The method
+        float endValue = show ? 1f : 0f;
+        DOTween.To(() => canvasUIHammer.alpha, value => canvasUIHammer.alpha = value, endValue, 1);
+    }
+    
+    public void ShowUIButton(bool show = true)
+    {
+        float endValue = show ? 1f : 0f;
+        DOTween.To(() => canvasUIButton.alpha, value => canvasUIButton.alpha = value, endValue, 1);
     }
 }
 
@@ -145,7 +154,7 @@ public class GameManager : MonoBehaviour
 public class ButtonIcon
 {
     public string Name;
-    public Sprite sprite;
+    public RuntimeAnimatorController sprite;
 
     
 }

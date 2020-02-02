@@ -11,7 +11,8 @@ namespace States.Environement.Thor
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             _gameManager = GameManager.Instance;
-            _gameManager.canvasUI.GetComponent<CanvasGroup>().alpha = 0f;
+            _gameManager.canvasUIHammer.alpha = 0f;
+            _gameManager.ShowUIButton(true);
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo,

@@ -35,14 +35,11 @@ namespace States.Environement.Thor
 
         private void OnFail()
         {
-            Debug.Log("FAILLLLED");
-
             _animator.SetTrigger(Fail);
         }
 
         private void OnSuccess()
         {
-            Debug.Log("SUCCCCCCEESSS");
             _animator.SetTrigger(Success);
         }
 

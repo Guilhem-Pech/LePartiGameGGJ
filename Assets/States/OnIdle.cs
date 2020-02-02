@@ -19,7 +19,7 @@ namespace States
             _useAction =  _gameManager.GetPlayerInput().actions.FindAction("Use");
             _useAction.performed += OnUse;
             _gameManager.currentState.SetText("Idle");
-            canvasGroup = _gameManager.canvasUI.GetComponent<CanvasGroup>();
+            canvasGroup = _gameManager.canvasUIHammer;
         }
 
         private void OnUse(InputAction.CallbackContext arg0)
@@ -39,7 +39,7 @@ namespace States
                 _gameManager.HammerPower -= _gameManager.gameManagerData.decreasePowerPerSecond * Time.deltaTime;
                 if (_gameManager.HammerPower > 2f && canvasGroup.alpha <= 0f)
                 {
-                    DOTween.To(() => canvasGroup.alpha, value => canvasGroup.alpha = value, 1f, 0.5f);
+                    _gameManager.ShowUI(true);
                 }
             }
             else
