@@ -23,3 +23,4 @@ MonoBehaviour:
   levelOneThunderbolt: 10
   levelTwoThunderbolt: 20
   levelThreeThunderbolt: 26
+  shakeMin: 10
