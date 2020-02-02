@@ -17,8 +17,8 @@ MonoBehaviour:
   minHammerPowerEnteringMinigame: 10
   smashAddForce: 2
   thresholdReturnToIdle: 8
-  minTimerMinigame: 5
-  maxTimerMinigame: 7
+  minTimerMinigame: 19
+  maxTimerMinigame: 19
   kaboomThreshold: 25
   levelOneThunderbolt: 10
   levelTwoThunderbolt: 20

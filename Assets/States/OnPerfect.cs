@@ -9,6 +9,8 @@ namespace States
     {
         private static readonly int PrevState = Animator.StringToHash("PrevState");
         private static readonly int NextState = Animator.StringToHash("NextState");
+        private static readonly int Stop = Animator.StringToHash("Stop");
+        private static readonly int PreventRestart = Animator.StringToHash("PreventRestart");
 
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
@@ -23,12 +25,16 @@ namespace States
             Timer.Register(5f,() => animator.SetTrigger(GameManager.Instance.NailProgress < 100 ? PrevState : NextState));
             CanvasGroup canvasGroup = GameManager.Instance.canvasUI.GetComponent<CanvasGroup>();
             DOTween.To(() => canvasGroup.alpha, value => canvasGroup.alpha = value, 0f, 1);
+            GameManager.Instance.backgroundAnimator.SetTrigger(Stop);
+            GameManager.Instance.backgroundAnimator.SetBool(PreventRestart,true);
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
         {
             GameManager.Instance.HammerPower = 0f;
+            GameManager.Instance.backgroundAnimator.SetBool(PreventRestart,false);
+
         }
 
     }

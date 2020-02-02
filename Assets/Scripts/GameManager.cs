@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     [Header("Data to modify to tweak the values, made for the Game Designer")] public GameManagerData gameManagerData;
     public ButtonIcon[] buttonIcon;
     
+    
     [Header("Mainly for the developers")] 
     public TextMeshProUGUI hammerPowerDebug;
     public TextMeshProUGUI currentState;
@@ -36,13 +37,13 @@ public class GameManager : MonoBehaviour
     public Canvas canvasUI;
     public UnityEvent onFailedEvent;
     public UnityEvent onSuccessEvent;
+    public Transform nailTransform;
     
     public float HammerPower
     {
         get => _hammerPower;
         set
         {
-            Debug.Log(value);
             _hammerPower = value;
             int p = Mathf.FloorToInt(value);
             if (hammerUI)
@@ -62,7 +63,11 @@ public class GameManager : MonoBehaviour
             Debug.Log("NAIL PROGRESS: " + _nailProgress);
             return _nailProgress;
         } 
-        set => _nailProgress = value;
+        set
+        {
+            _nailProgress = value;
+            nailTransform.DOLocalMove(new Vector3(0,-(value / 100f),0), 0.3f);
+        }
     }
 
     private void Start()
