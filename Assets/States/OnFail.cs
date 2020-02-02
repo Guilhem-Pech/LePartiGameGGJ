@@ -12,8 +12,9 @@ namespace States
         {
             GameManager.Instance.currentState.SetText("KABOOOOM");
             GameManager.Instance.onFailedEvent.Invoke();
-            CanvasGroup canvasGroup = GameManager.Instance.canvasUI.GetComponent<CanvasGroup>();
-            DOTween.To(() => canvasGroup.alpha, value => canvasGroup.alpha = value, 0f, 1);
+            GameManager.Instance.ShowUI(false);
+            GameManager.Instance.ShowUIButton(false);
+
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,

@@ -23,10 +23,10 @@ namespace States
                 : (int) GameManager.Instance.HammerPower;
 
             Timer.Register(5f,() => animator.SetTrigger(GameManager.Instance.NailProgress < 100 ? PrevState : NextState));
-            CanvasGroup canvasGroup = GameManager.Instance.canvasUI.GetComponent<CanvasGroup>();
-            DOTween.To(() => canvasGroup.alpha, value => canvasGroup.alpha = value, 0f, 1);
+            GameManager.Instance.ShowUI(false);
             GameManager.Instance.backgroundAnimator.SetTrigger(Stop);
             GameManager.Instance.backgroundAnimator.SetBool(PreventRestart,true);
+            GameManager.Instance.ShowUIButton(false);
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
