@@ -145,8 +145,10 @@ public class GameManager : MonoBehaviour
     
     public void ShowUIButton(bool show = true)
     {
+        Debug.Log("HIDE ? " + show);
         float endValue = show ? 1f : 0f;
-        DOTween.To(() => canvasUIButton.alpha, value => canvasUIButton.alpha = value, endValue, 1);
+        //DOTween.To(() => canvasUIButton.alpha, value => canvasUIButton.alpha = value, endValue, 1);
+        canvasUIButton.alpha = endValue;
     }
 }
 
