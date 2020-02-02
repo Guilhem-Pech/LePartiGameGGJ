@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: bfe369782b82ca4c8bd89526088a0210
     GuidInternal: 
-    m_lastTime: -8586210964955401306
+    m_lastTime: -8586209509866844722
     List:
     - name: Thor
       guid: ff4b996bd103f24da1347106e8ac5ab4
@@ -47,8 +47,152 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: fadf4aeac8c9d242bc4a5d8a4a7693bf
     GuidInternal: 
-    m_lastTime: -8586210995285316255
+    m_lastTime: -8586209509866844722
     List:
+    - name: Ambiance_calme
+      guid: 20794f6c728d50419dda7314a4791094
+      id: 659866630
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance_calme
+        ObjectType: 3
+      Path: Default Work Unit\Ambiance_calme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Confirmation_Nail
+      guid: 10472d45fd01424c856a55d9d2f478df
+      id: 2065380521
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Confirmation_Nail
+        ObjectType: 3
+      Path: Default Work Unit\Confirmation_Nail
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Explosion
+      guid: f9b62d2e709c794186630a2750eaa6b0
+      id: 13776098
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Explosion
+        ObjectType: 3
+      Path: Default Work Unit\Explosion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Flying_Cow
+      guid: 58978b610532074f90d2309b0daac0ce
+      id: 2783361612
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flying_Cow
+        ObjectType: 3
+      Path: Default Work Unit\Flying_Cow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Game_over_electric_sparkles
+      guid: 653d637f4bfd0b48a65bbf6ed070224b
+      id: 1455994236
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_over_electric_sparkles
+        ObjectType: 3
+      Path: Default Work Unit\Game_over_electric_sparkles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Nail
+      guid: bb31d56b42010c4cb4b45c4572d01063
+      id: 864764337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nail
+        ObjectType: 3
+      Path: Default Work Unit\Nail
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Charge_Marteau_Loop
+      guid: 0075e15852cb2c4498d1996023c0c4d8
+      id: 1209049737
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Charge_Marteau_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Charge_Marteau_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: c9fde3b757a2a84eb563abb7d2a4cdd3
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Default Work Unit\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Storm
+      guid: 8a30ceab4b2d1147bebc5c7016753449
+      id: 2501377909
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Storm
+        ObjectType: 3
+      Path: Default Work Unit\Play_Storm
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Ambiance_calme
+      guid: e03c53ad3b7e9f4cb61e80668cd21c04
+      id: 185826087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Ambiance_calme
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Ambiance_calme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Charge_Marteau_Loop
+      guid: ea9b506246d8aa438ee9b4a70766377d
+      id: 2070117931
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Charge_Marteau_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Charge_Marteau_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Storm
+      guid: 8d8fa07a8176b54389330d2c86320d37
+      id: 2196552987
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Storm
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Storm
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Test
       guid: f7e807479a9a7d4c85d076739aae7b43
       id: 3157003241
@@ -58,6 +202,30 @@ MonoBehaviour:
       - ElementName: Test
         ObjectType: 3
       Path: Default Work Unit\Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Woosh_Gros_Marteau
+      guid: 2c8deec8964498428c50a4b917a1af6e
+      id: 3355316005
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Woosh_Gros_Marteau
+        ObjectType: 3
+      Path: Default Work Unit\Woosh_Gros_Marteau
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Woosh_Nuage
+      guid: 94cbb63b79187147883b6e3634c9efd7
+      id: 197173530
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Woosh_Nuage
+        ObjectType: 3
+      Path: Default Work Unit\Woosh_Nuage
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -89,6 +257,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586210995285007103
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Session Wwise Thor
+  - /Session Wwise Thor/Events
+  - /Session Wwise Thor/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
