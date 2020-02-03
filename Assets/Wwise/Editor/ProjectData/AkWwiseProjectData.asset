@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: bfe369782b82ca4c8bd89526088a0210
     GuidInternal: 
-    m_lastTime: -8586209509866844722
+    m_lastTime: -8586209481158470815
     List:
     - name: Thor
       guid: ff4b996bd103f24da1347106e8ac5ab4
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: fadf4aeac8c9d242bc4a5d8a4a7693bf
     GuidInternal: 
-    m_lastTime: -8586209509866844722
+    m_lastTime: -8586209481158472373
     List:
     - name: Ambiance_calme
       guid: 20794f6c728d50419dda7314a4791094
@@ -178,6 +178,18 @@ MonoBehaviour:
       - ElementName: Stop_Charge_Marteau_Loop
         ObjectType: 3
       Path: Default Work Unit\Stop_Charge_Marteau_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Music
+      guid: 0b4239450c5f4d478725ae5d9f1c7708
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Music
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

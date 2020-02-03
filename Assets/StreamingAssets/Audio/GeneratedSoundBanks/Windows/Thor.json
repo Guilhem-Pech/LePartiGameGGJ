@@ -116,6 +116,16 @@
       "DurationMax": "0.000000"
      },
      {
+      "Id": "2837384057",
+      "Name": "Stop_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music",
+      "GUID": "{4539420B-5F0C-474D-8725-AE5D9F1C7708}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "2196552987",
       "Name": "Stop_Storm",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Storm",

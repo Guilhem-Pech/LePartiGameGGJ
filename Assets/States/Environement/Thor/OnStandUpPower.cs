@@ -16,12 +16,15 @@ namespace States.Environement.Thor
             _gameManager.onFailedEvent.AddListener(OnFail);
             _gameManager.onSuccessEvent.AddListener(OnSuccess);
             _animator = animator;
+            AkSoundEngine.PostEvent("Play_Music", animator.gameObject);
         }
         
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             _gameManager.onFailedEvent.RemoveListener(OnFail);
             _gameManager.onSuccessEvent.RemoveListener(OnSuccess);
+            AkSoundEngine.PostEvent("Stop_Music", animator.gameObject);
+
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo,

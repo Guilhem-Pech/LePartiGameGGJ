@@ -11,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2196552987	Stop_Storm			\Default Work Unit\Stop_Storm	
 	2501377909	Play_Storm			\Default Work Unit\Play_Storm	
 	2783361612	Flying_Cow			\Default Work Unit\Flying_Cow	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3157003241	Test			\Default Work Unit\Test	
 	3355316005	Woosh_Gros_Marteau			\Default Work Unit\Woosh_Gros_Marteau	

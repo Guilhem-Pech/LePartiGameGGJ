@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_STORM = 2501377909U;
         static const AkUniqueID STOP_AMBIANCE_CALME = 185826087U;
         static const AkUniqueID STOP_CHARGE_MARTEAU_LOOP = 2070117931U;
+        static const AkUniqueID STOP_MUSIC = 2837384057U;
         static const AkUniqueID STOP_STORM = 2196552987U;
         static const AkUniqueID TEST = 3157003241U;
         static const AkUniqueID WOOSH_GROS_MARTEAU = 3355316005U;
