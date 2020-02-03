@@ -21,6 +21,121 @@
     "Path": "Thor.bnk",
     "IncludedEvents": [
      {
+      "Id": "659866630",
+      "Name": "Ambiance_calme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiance_calme",
+      "GUID": "{6C4F7920-8D72-4150-9DDA-7314A4791094}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2065380521",
+      "Name": "Confirmation_Nail",
+      "ObjectPath": "\\Events\\Default Work Unit\\Confirmation_Nail",
+      "GUID": "{452D4710-01FD-4C42-856A-55D9D2F478DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.320244",
+      "DurationMax": "1.320244"
+     },
+     {
+      "Id": "13776098",
+      "Name": "Explosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Explosion",
+      "GUID": "{2E2DB6F9-9C70-4179-8663-0A2750EAA6B0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.912313",
+      "DurationMax": "3.912313"
+     },
+     {
+      "Id": "2783361612",
+      "Name": "Flying_Cow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Flying_Cow",
+      "GUID": "{618B9758-3205-4F07-90D2-309B0DAAC0CE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.414354",
+      "DurationMax": "3.414354"
+     },
+     {
+      "Id": "1455994236",
+      "Name": "Game_over_electric_sparkles",
+      "ObjectPath": "\\Events\\Default Work Unit\\Game_over_electric_sparkles",
+      "GUID": "{7F633D65-FD4B-480B-A65B-BF6ED070224B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.978083",
+      "DurationMax": "0.978083"
+     },
+     {
+      "Id": "864764337",
+      "Name": "Nail",
+      "ObjectPath": "\\Events\\Default Work Unit\\Nail",
+      "GUID": "{6BD531BB-0142-4C0C-B4B4-5C4572D01063}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.398750",
+      "DurationMax": "1.398750"
+     },
+     {
+      "Id": "1209049737",
+      "Name": "Play_Charge_Marteau_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Charge_Marteau_Loop",
+      "GUID": "{58E17500-CB52-442C-98D1-996023C0C4D8}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{B7E3FDC9-A257-4EA8-B563-ABB7D2A4CDD3}",
+      "DurationType": "OneShot",
+      "DurationMin": "25.671833",
+      "DurationMax": "25.671833"
+     },
+     {
+      "Id": "2501377909",
+      "Name": "Play_Storm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Storm",
+      "GUID": "{ABCE308A-2D4B-4711-BEBC-5C7016753449}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "185826087",
+      "Name": "Stop_Ambiance_calme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Ambiance_calme",
+      "GUID": "{AD533CE0-7E3B-4C9F-B61E-80668CD21C04}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2070117931",
+      "Name": "Stop_Charge_Marteau_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Charge_Marteau_Loop",
+      "GUID": "{62509BEA-D846-43AA-8EE9-B4A70766377D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2837384057",
+      "Name": "Stop_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music",
+      "GUID": "{4539420B-5F0C-474D-8725-AE5D9F1C7708}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2196552987",
+      "Name": "Stop_Storm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Storm",
+      "GUID": "{7AA08F8D-7681-43B5-8933-0D2C86320D37}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "3157003241",
       "Name": "Test",
       "ObjectPath": "\\Events\\Default Work Unit\\Test",
@@ -28,14 +143,152 @@
       "DurationType": "OneShot",
       "DurationMin": "13.013633",
       "DurationMax": "13.013633"
+     },
+     {
+      "Id": "3355316005",
+      "Name": "Woosh_Gros_Marteau",
+      "ObjectPath": "\\Events\\Default Work Unit\\Woosh_Gros_Marteau",
+      "GUID": "{C8EE8D2C-4496-4298-8C50-A4B917A1AF6E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.158042",
+      "DurationMax": "2.158042"
+     },
+     {
+      "Id": "197173530",
+      "Name": "Woosh_Nuage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Woosh_Nuage",
+      "GUID": "{3BB6CB94-1879-4771-883B-6E3634C9EFD7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.320958",
+      "DurationMax": "1.320958"
      }
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "96607624",
+      "Language": "SFX",
+      "ShortName": "Amb-bird.wav",
+      "Path": "SFX\\Amb-bird_3EBA1927.wem"
+     },
+     {
+      "Id": "185071948",
+      "Language": "SFX",
+      "ShortName": "Thunder.wav",
+      "Path": "SFX\\Thunder_3FD50A59.wem"
+     },
+     {
+      "Id": "237109077",
+      "Language": "SFX",
+      "ShortName": "Woosh Nuages.wav",
+      "Path": "SFX\\Woosh Nuages_3FD50A59.wem"
+     },
+     {
+      "Id": "244442526",
+      "Language": "SFX",
+      "ShortName": "Musique Thor.wav",
+      "Path": "SFX\\Musique Thor_3EBA1927.wem"
+     },
+     {
+      "Id": "261246998",
+      "Language": "SFX",
+      "ShortName": "Explosion Maison.wav",
+      "Path": "SFX\\Explosion Maison_3FD50A59.wem"
+     },
+     {
+      "Id": "269545123",
+      "Language": "SFX",
+      "ShortName": "Bird Left 07-003.wav",
+      "Path": "SFX\\Bird Left 07-003_3FD50A59.wem"
+     },
+     {
+      "Id": "360466193",
+      "Language": "SFX",
+      "ShortName": "Bird Right 08-002.wav",
+      "Path": "SFX\\Bird Right 08-002_3FD50A59.wem"
+     },
+     {
+      "Id": "415982577",
+      "Language": "SFX",
+      "ShortName": "Wind.wav",
+      "Path": "SFX\\Wind_3EBA1927.wem"
+     },
+     {
+      "Id": "455162993",
+      "Language": "SFX",
+      "ShortName": "Start Storm Wind.wav",
+      "Path": "SFX\\Start Storm Wind_3EBA1927.wem"
+     },
+     {
+      "Id": "479498169",
+      "Language": "SFX",
+      "ShortName": "Flying Cow.wav",
+      "Path": "SFX\\Flying Cow_3FD50A59.wem"
+     },
+     {
+      "Id": "481682598",
+      "Language": "SFX",
+      "ShortName": "Charge Marteau Loop.wav",
+      "Path": "SFX\\Charge Marteau Loop_3EBA1927.wem"
+     },
+     {
+      "Id": "486085404",
+      "Language": "SFX",
+      "ShortName": "Woosh Gros Marteau.wav",
+      "Path": "SFX\\Woosh Gros Marteau_3FD50A59.wem"
+     },
+     {
+      "Id": "513887591",
+      "Language": "SFX",
+      "ShortName": "Bird Right 08-001.wav",
+      "Path": "SFX\\Bird Right 08-001_3FD50A59.wem"
+     },
+     {
+      "Id": "592972081",
+      "Language": "SFX",
+      "ShortName": "Bird Left 07-002.wav",
+      "Path": "SFX\\Bird Left 07-002_3FD50A59.wem"
+     },
+     {
+      "Id": "625324982",
+      "Language": "SFX",
+      "ShortName": "Dog.wav",
+      "Path": "SFX\\Dog_3EBA1927.wem"
+     },
+     {
+      "Id": "654645103",
+      "Language": "SFX",
+      "ShortName": "Plane.wav",
+      "Path": "SFX\\Plane_3EBA1927.wem"
+     },
+     {
       "Id": "893082637",
       "Language": "SFX",
       "ShortName": "Phrase 2.wav",
-      "Path": "SFX\\Phrase 2_07BF872D.wem"
+      "Path": "SFX\\Phrase 2_49B363BD.wem"
+     },
+     {
+      "Id": "996420633",
+      "Language": "SFX",
+      "ShortName": "Bird Left 07-001.wav",
+      "Path": "SFX\\Bird Left 07-001_3FD50A59.wem"
+     },
+     {
+      "Id": "996984482",
+      "Language": "SFX",
+      "ShortName": "Electric Sparkles Game Over.wav",
+      "Path": "SFX\\Electric Sparkles Game Over_3FD50A59.wem"
+     },
+     {
+      "Id": "1022766190",
+      "Language": "SFX",
+      "ShortName": "Confirmation Nail.wav",
+      "Path": "SFX\\Confirmation Nail_3FD50A59.wem"
+     },
+     {
+      "Id": "1025543645",
+      "Language": "SFX",
+      "ShortName": "Hammer.wav",
+      "Path": "SFX\\Hammer_3FD50A59.wem"
      }
     ]
    }

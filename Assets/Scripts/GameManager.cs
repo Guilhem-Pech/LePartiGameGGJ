@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using Data;
 using DG.Tweening;
 using TMPro;
 using UI;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -40,7 +37,7 @@ public class GameManager : MonoBehaviour
     public UnityEvent onFailedEvent;
     public UnityEvent onSuccessEvent;
     public Transform nailTransform;
-    
+    public CanvasGroup title;
     public float HammerPower
     {
         get => _hammerPower;
@@ -141,12 +138,18 @@ public class GameManager : MonoBehaviour
     {
         float endValue = show ? 1f : 0f;
         DOTween.To(() => canvasUIHammer.alpha, value => canvasUIHammer.alpha = value, endValue, 1);
+        if (show)
+        {
+            DOTween.To(() => title.alpha, value => title.alpha = value, 0, 1);
+        }
     }
     
     public void ShowUIButton(bool show = true)
     {
+        Debug.Log("HIDE ? " + show);
         float endValue = show ? 1f : 0f;
-        DOTween.To(() => canvasUIButton.alpha, value => canvasUIButton.alpha = value, endValue, 1);
+        //DOTween.To(() => canvasUIButton.alpha, value => canvasUIButton.alpha = value, endValue, 1);
+        canvasUIButton.alpha = endValue;
     }
 }
 

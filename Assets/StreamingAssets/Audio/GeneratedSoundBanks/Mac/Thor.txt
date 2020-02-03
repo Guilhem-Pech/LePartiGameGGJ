@@ -1,6 +1,41 @@
 Event	ID	Name			Wwise Object Path	Notes
+	13776098	Explosion			\Default Work Unit\Explosion	
+	185826087	Stop_Ambiance_calme			\Default Work Unit\Stop_Ambiance_calme	
+	197173530	Woosh_Nuage			\Default Work Unit\Woosh_Nuage	
+	659866630	Ambiance_calme			\Default Work Unit\Ambiance_calme	
+	864764337	Nail			\Default Work Unit\Nail	
+	1209049737	Play_Charge_Marteau_Loop			\Default Work Unit\Play_Charge_Marteau_Loop	
+	1455994236	Game_over_electric_sparkles			\Default Work Unit\Game_over_electric_sparkles	
+	2065380521	Confirmation_Nail			\Default Work Unit\Confirmation_Nail	
+	2070117931	Stop_Charge_Marteau_Loop			\Default Work Unit\Stop_Charge_Marteau_Loop	
+	2196552987	Stop_Storm			\Default Work Unit\Stop_Storm	
+	2501377909	Play_Storm			\Default Work Unit\Play_Storm	
+	2783361612	Flying_Cow			\Default Work Unit\Flying_Cow	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3157003241	Test			\Default Work Unit\Test	
+	3355316005	Woosh_Gros_Marteau			\Default Work Unit\Woosh_Gros_Marteau	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	893082637	Phrase 2	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Phrase 2_07BF872D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Phrase 2		2498680
+	96607624	Amb-bird	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Amb-bird_3EBA1927.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Amb-bird		2659165
+	185071948	Thunder	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Thunder_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Storm\Thunder		144613
+	237109077	Woosh Nuages	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Woosh Nuages_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Woosh Nuage\Woosh Nuages		21114
+	244442526	Musique Thor	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Musique Thor_3EBA1927.wem		\Interactive Music Hierarchy\Default Work Unit\Musique Thor\Musique Thor		407755
+	261246998	Explosion Maison	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Explosion Maison_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion\Explosion Maison		71162
+	269545123	Bird Left 07-003	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Bird Left 07-003_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Bird Left\Bird Left 07-003		357244
+	360466193	Bird Right 08-002	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Bird Right 08-002_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Bird Right\Bird Right 08-002		364049
+	415982577	Wind	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Wind_3EBA1927.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Wind		2565613
+	455162993	Start Storm Wind	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Start Storm Wind_3EBA1927.wem		\Actor-Mixer Hierarchy\Default Work Unit\Storm\Start Storm Wind		287469
+	479498169	Flying Cow	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Flying Cow_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flying Cow\Flying Cow		49198
+	481682598	Charge Marteau Loop	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Charge Marteau Loop_3EBA1927.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charge Marteau Loop\Charge Marteau Loop		243841
+	486085404	Woosh Gros Marteau	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Woosh Gros Marteau_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Woosh Gros Marteau\Woosh Gros Marteau		30198
+	513887591	Bird Right 08-001	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Bird Right 08-001_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Bird Right\Bird Right 08-001		398445
+	592972081	Bird Left 07-002	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Bird Left 07-002_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Bird Left\Bird Left 07-002		364510
+	625324982	Dog	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Dog_3EBA1927.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Dog		454997
+	654645103	Plane	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Plane_3EBA1927.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Plane		321020
+	893082637	Phrase 2	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Phrase 2_49B363BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Phrase 2		233571
+	996420633	Bird Left 07-001	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Bird Left 07-001_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience-calme\Bird Left\Bird Left 07-001		428495
+	996984482	Electric Sparkles Game Over	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Electric Sparkles Game Over_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_over_electric_sparkles\Electric Sparkles Game Over		15337
+	1022766190	Confirmation Nail	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Confirmation Nail_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Confirmation Nail\Confirmation Nail		13556
+	1025543645	Hammer	D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\SFX\Hammer_3FD50A59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nail\Hammer		22978
 
