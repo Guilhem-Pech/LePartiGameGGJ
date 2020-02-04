@@ -2185,6 +2185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30d0b1345f00054682f003a06ab6c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fillBar:
+  - {fileID: 1681687899}
+  - {fileID: 2114062424}
+  - {fileID: 1840832293}
 --- !u!114 &1362870011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,7 +2647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.8627451, g: 0, b: 0.19607843, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2937,7 +2941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.95554936, b: 0, a: 1}
+  m_Color: {r: 0.15686275, g: 0.78431374, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3234,7 +3238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.53611743, b: 0, a: 1}
+  m_Color: {r: 0.15686275, g: 0.78431374, b: 0, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
