@@ -29,7 +29,7 @@ namespace UI
             foreach (Image image in fillBar) image.color = color;
         }
         
-        private Color getColor(int percent)
+        private static Color GetColor(int percent)
         {
             if (percent > 25)
                 return Red;
@@ -44,7 +44,7 @@ namespace UI
         {
             _options?.Kill();
             _percentage.SetText(text + "%");
-            Color c = getColor(text);
+            Color c = GetColor(text);
             _percentage.color = c;
             SetImgColor(c);
         }
@@ -56,7 +56,7 @@ namespace UI
             {
                 _options = DOTween.To(() => _percentage.text, x => _percentage.text = x, (text * 10000).ToString(), 100)
                     .SetOptions(false, ScrambleMode.Numerals).SetLoops(-1);
-                Color c = getColor(text);
+                Color c = GetColor(text);
                 _percentage.color = c;
                 SetImgColor(c);
             }

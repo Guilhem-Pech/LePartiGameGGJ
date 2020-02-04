@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
         hammerUIanim = hammerUI.transform.DOShakePosition(1,5,10,90f,false,false).SetLoops(-1,LoopType.Yoyo).Pause();
     }
 
-    public RuntimeAnimatorController GetUseButtonSprite(InputDevice inputDevice)
+    private RuntimeAnimatorController GetUseButtonSprite(InputDevice inputDevice)
     {
         switch (inputDevice)
         {
@@ -117,9 +117,9 @@ public class GameManager : MonoBehaviour
         if(hammerPowerDebug)
             hammerPowerDebug.SetText(HammerPower.ToString("N"));
     }
-    
-    
-    public RuntimeAnimatorController GetSprite(string m)
+
+
+    private RuntimeAnimatorController GetSprite(string m)
     {
         return (from icon in buttonIcon where icon.Name == m select icon.sprite).FirstOrDefault();
     }
