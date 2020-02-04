@@ -17,7 +17,8 @@ namespace States.Environement.Thor
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             if(_gameManager.HammerPower <= 0f) animator.SetTrigger(PrevState);
-            if(_gameManager.HammerPower >= _gameManager.gameManagerData.minHammerPowerEnteringMinigame) animator.SetTrigger(NextState);
+            if (_gameManager.HammerPower >= _gameManager.gameManagerData.minHammerPowerEnteringMinigame)
+                animator.SetTrigger(NextState);
             
         }
     }

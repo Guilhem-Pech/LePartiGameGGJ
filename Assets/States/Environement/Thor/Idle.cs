@@ -12,7 +12,6 @@ namespace States.Environement.Thor
         {
             _gameManager = GameManager.Instance;
             _gameManager.canvasUIHammer.alpha = 0f;
-            Debug.Log("Idle");
             if(activateButton)
                 _gameManager.ShowUIButton(true); 
         }
