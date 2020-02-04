@@ -43,7 +43,9 @@ namespace States
                 }
             }
             else
+            {
                 _gameManager.HammerPower = 0;
+            }
         }
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,

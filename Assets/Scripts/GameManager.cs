@@ -34,10 +34,12 @@ public class GameManager : MonoBehaviour
     public Animator thorAnimator;
     public CanvasGroup canvasUIHammer;
     public CanvasGroup canvasUIButton;
-    public UnityEvent onFailedEvent;
-    public UnityEvent onSuccessEvent;
+    [HideInInspector] public UnityEvent onFailedEvent;
+    [HideInInspector] public UnityEvent onSuccessEvent;
     public Transform nailTransform;
     public CanvasGroup title;
+    public GamepadVibrate gamepadVibrate;
+    public GameObject endScreen;
     public float HammerPower
     {
         get => _hammerPower;

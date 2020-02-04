@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 
 namespace States.Environement.Thor
 {
@@ -13,7 +14,7 @@ namespace States.Environement.Thor
             _gameManager = GameManager.Instance;
             _gameManager.canvasUIHammer.alpha = 0f;
             if(activateButton)
-                _gameManager.ShowUIButton(true); 
+                _gameManager.ShowUIButton(true);
         }
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo,

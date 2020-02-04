@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Thor : MonoBehaviour
 {
@@ -54,4 +55,10 @@ public class Thor : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Explosion", gameObject);
     }
+
+    private void StartVibrate() => 
+        Gamepad.current?.SetMotorSpeeds(0.8f,0.8f);
+
+    private void EndExplosion() => 
+        Gamepad.current?.SetMotorSpeeds(0f,0f);
 }
