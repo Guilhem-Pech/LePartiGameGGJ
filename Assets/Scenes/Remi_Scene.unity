@@ -704,6 +704,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   nailTransform: {fileID: 0}
+  title: {fileID: 0}
+  gamepadVibrate: {fileID: 0}
+  endScreen: {fileID: 0}
 --- !u!4 &521691963
 Transform:
   m_ObjectHideFlags: 0
@@ -736,7 +739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &560458300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1662,7 +1665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1924641693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1947,6 +1950,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5691663031678280686, guid: 3b0fe1458130fcc498e83cc326d5de56,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691663032832606889, guid: 3b0fe1458130fcc498e83cc326d5de56,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5691663033236027259, guid: 3b0fe1458130fcc498e83cc326d5de56,
         type: 3}
       propertyPath: m_Name

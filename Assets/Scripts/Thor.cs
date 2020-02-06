@@ -18,6 +18,10 @@ public class Thor : MonoBehaviour
     {
         GameManager.Instance.thorAnimator.SetTrigger(
             GameManager.Instance.NailProgress >= 100f ? NextState : LowerHammer);
+        if (GameManager.Instance.NailProgress >= 100f)
+        {
+            AkSoundEngine.PostEvent("Stop_Ambiance_calme", gameObject);
+        }
     }
 
     void WooshSound()
@@ -27,6 +31,10 @@ public class Thor : MonoBehaviour
     private void OnHitNail()
     {
         AkSoundEngine.PostEvent("Nail", gameObject);
+        if (GameManager.Instance.NailProgress >= 100f)
+        {
+            AkSoundEngine.PostEvent("Confirmation_Nail", gameObject);
+        }
     }
 
     private void PlayMarteauIdleSound()
@@ -44,13 +52,24 @@ public class Thor : MonoBehaviour
     private void ConfirmationNail()
     {
         AkSoundEngine.PostEvent("Confirmation_Nail", gameObject);
+        AkSoundEngine.PostEvent("Stop_Ambiance_calme", gameObject);
     }
 
     private void SparklesGameOver()
     {
         AkSoundEngine.PostEvent("Game_over_electric_sparkles", gameObject);
     }
-    
+
+    private void CreditsMusic()
+    {
+        AkSoundEngine.PostEvent("Play_Music", gameObject);
+    }
+
+    private void StopAmbiance()
+    {
+        AkSoundEngine.PostEvent("Stop_Ambiance_calme", gameObject);
+    }
+
     private void Explosion()
     {
         AkSoundEngine.PostEvent("Explosion", gameObject);
