@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Users\guilh\Unity\ggj\GGJThorWwise\</ProjectRoot>
-		<SourceFilesRoot>D:\Users\guilh\Unity\ggj\GGJThorWwise\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Users\guilh\Unity\ggj\LePartiGameGGJ\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>G:\Users\guilh\Unity\GGJThorWwise\</ProjectRoot>
+		<SourceFilesRoot>G:\Users\guilh\Unity\GGJThorWwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>G:\Users\guilh\Unity\LePartiGameGGJ\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Users\guilh\Unity\ggj\GGJThorWwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>G:\Users\guilh\Unity\GGJThorWwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,39 +21,74 @@
 			<ShortName>Thor</ShortName>
 			<Path>Thor.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1886858546" Name="Ah" ObjectPath="\Events\Default Work Unit\Voice\Ah" GUID="{7CFBD3EF-C40A-4A98-818B-E391D427FF8E}" DurationType="OneShot" DurationMin="2.558396" DurationMax="2.931625"/>
 				<Event Id="659866630" Name="Ambiance_calme" ObjectPath="\Events\Default Work Unit\Ambiance_calme" GUID="{6C4F7920-8D72-4150-9DDA-7314A4791094}" DurationType="Infinite"/>
 				<Event Id="2065380521" Name="Confirmation_Nail" ObjectPath="\Events\Default Work Unit\Confirmation_Nail" GUID="{452D4710-01FD-4C42-856A-55D9D2F478DF}" DurationType="OneShot" DurationMin="1.320244" DurationMax="1.320244"/>
+				<Event Id="1771327413" Name="Epic_Fail" ObjectPath="\Events\Default Work Unit\Voice\Epic_Fail" GUID="{BD256676-170C-4067-906E-EC83F881A701}" DurationType="OneShot" DurationMin="3.215708" DurationMax="3.215708"/>
 				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Default Work Unit\Explosion" GUID="{2E2DB6F9-9C70-4179-8663-0A2750EAA6B0}" DurationType="OneShot" DurationMin="3.912313" DurationMax="3.912313"/>
 				<Event Id="2783361612" Name="Flying_Cow" ObjectPath="\Events\Default Work Unit\Flying_Cow" GUID="{618B9758-3205-4F07-90D2-309B0DAAC0CE}" DurationType="OneShot" DurationMin="3.414354" DurationMax="3.414354"/>
+				<Event Id="1432716332" Name="Game_Over" ObjectPath="\Events\Default Work Unit\Voice\Game_Over" GUID="{26E25EDB-68C5-48A2-A537-DDABCF1C29E3}" DurationType="OneShot" DurationMin="3.307688" DurationMax="3.307688"/>
 				<Event Id="1455994236" Name="Game_over_electric_sparkles" ObjectPath="\Events\Default Work Unit\Game_over_electric_sparkles" GUID="{7F633D65-FD4B-480B-A65B-BF6ED070224B}" DurationType="OneShot" DurationMin="0.978083" DurationMax="0.978083"/>
+				<Event Id="4080177636" Name="Great" ObjectPath="\Events\Default Work Unit\Voice\Great" GUID="{F181431C-3106-4EDF-8B71-1A788916584F}" DurationType="OneShot" DurationMin="2.711146" DurationMax="2.711146"/>
+				<Event Id="3223510987" Name="I_Have_Heard_You_Are_Good_At_Repair" ObjectPath="\Events\Default Work Unit\Voice\I_Have_Heard_You_Are_Good_At_Repair" GUID="{D2626162-7121-4315-B562-56638DC44F74}" DurationType="OneShot" DurationMin="7.991963" DurationMax="7.991963"/>
 				<Event Id="864764337" Name="Nail" ObjectPath="\Events\Default Work Unit\Nail" GUID="{6BD531BB-0142-4C0C-B4B4-5C4572D01063}" DurationType="OneShot" DurationMin="1.398750" DurationMax="1.398750"/>
+				<Event Id="3147681939" Name="Nail_It" ObjectPath="\Events\Default Work Unit\Voice\Nail_It" GUID="{B75F04A4-31D5-4E67-805D-D2CD8EE9C2D5}" DurationType="OneShot" DurationMin="2.238905" DurationMax="2.238905"/>
+				<Event Id="2161557176" Name="Perfect" ObjectPath="\Events\Default Work Unit\Voice\Perfect" GUID="{2C99D65D-1C7C-4BF7-A336-2C127A5D6F79}" DurationType="OneShot" DurationMin="2.147086" DurationMax="2.147086"/>
 				<Event Id="1209049737" Name="Play_Charge_Marteau_Loop" ObjectPath="\Events\Default Work Unit\Play_Charge_Marteau_Loop" GUID="{58E17500-CB52-442C-98D1-996023C0C4D8}" DurationType="Infinite"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{B7E3FDC9-A257-4EA8-B563-ABB7D2A4CDD3}" DurationType="OneShot" DurationMin="25.671833" DurationMax="25.671833"/>
 				<Event Id="2501377909" Name="Play_Storm" ObjectPath="\Events\Default Work Unit\Play_Storm" GUID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}" DurationType="Infinite"/>
+				<Event Id="1207367695" Name="Sensitive" ObjectPath="\Events\Default Work Unit\Voice\Sensitive" GUID="{9819DE5F-BC0B-4DBA-8FA1-9B54A69E9ADC}" DurationType="OneShot" DurationMin="2.699958" DurationMax="2.699958"/>
 				<Event Id="185826087" Name="Stop_Ambiance_calme" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_calme" GUID="{AD533CE0-7E3B-4C9F-B61E-80668CD21C04}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2070117931" Name="Stop_Charge_Marteau_Loop" ObjectPath="\Events\Default Work Unit\Stop_Charge_Marteau_Loop" GUID="{62509BEA-D846-43AA-8EE9-B4A70766377D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" GUID="{4539420B-5F0C-474D-8725-AE5D9F1C7708}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2196552987" Name="Stop_Storm" ObjectPath="\Events\Default Work Unit\Stop_Storm" GUID="{7AA08F8D-7681-43B5-8933-0D2C86320D37}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2237492935" Name="Sweet" ObjectPath="\Events\Default Work Unit\Voice\Sweet" GUID="{BDF9BE9A-3846-454A-A28E-9372019F0BF3}" DurationType="OneShot" DurationMin="2.386812" DurationMax="2.386812"/>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" GUID="{4707E8F7-9A9A-4C7D-85D0-76739AAE7B43}" DurationType="OneShot" DurationMin="13.013633" DurationMax="13.013633"/>
+				<Event Id="4196703455" Name="Ui_Normal" ObjectPath="\Events\Default Work Unit\Ui\Ui_Normal" GUID="{108743D8-679B-490C-B9A9-71154AC22856}" DurationType="OneShot" DurationMin="1.547596" DurationMax="1.547596"/>
+				<Event Id="1936177545" Name="Ui_Perfect" ObjectPath="\Events\Default Work Unit\Ui\Ui_Perfect" GUID="{E617F842-7ADB-42FA-A354-0F3FC9F4AD97}" DurationType="OneShot" DurationMin="1.543628" DurationMax="1.543628"/>
 				<Event Id="3355316005" Name="Woosh_Gros_Marteau" ObjectPath="\Events\Default Work Unit\Woosh_Gros_Marteau" GUID="{C8EE8D2C-4496-4298-8C50-A4B917A1AF6E}" DurationType="OneShot" DurationMin="2.158042" DurationMax="2.158042"/>
 				<Event Id="197173530" Name="Woosh_Nuage" ObjectPath="\Events\Default Work Unit\Woosh_Nuage" GUID="{3BB6CB94-1879-4771-883B-6E3634C9EFD7}" DurationType="OneShot" DurationMin="1.320958" DurationMax="1.320958"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="1378040" Language="SFX">
+					<ShortName>AH 01-003.wav</ShortName>
+					<Path>SFX\AH 01-003_3FD50A59.wem</Path>
+				</File>
+				<File Id="28487541" Language="SFX">
+					<ShortName>I Have Heard You Are Good At Repair 01.wav</ShortName>
+					<Path>SFX\I Have Heard You Are Good At Repair 01_3FD50A59.wem</Path>
+				</File>
 				<File Id="96607624" Language="SFX">
 					<ShortName>Amb-bird.wav</ShortName>
 					<Path>SFX\Amb-bird_3EBA1927.wem</Path>
+				</File>
+				<File Id="144734738" Language="SFX">
+					<ShortName>Epic Fail 01-002.wav</ShortName>
+					<Path>SFX\Epic Fail 01-002_3FD50A59.wem</Path>
 				</File>
 				<File Id="185071948" Language="SFX">
 					<ShortName>Thunder.wav</ShortName>
 					<Path>SFX\Thunder_3FD50A59.wem</Path>
 				</File>
+				<File Id="215146190" Language="SFX">
+					<ShortName>Ui-Perfect.wav</ShortName>
+					<Path>SFX\Ui-Perfect_3FD50A59.wem</Path>
+				</File>
 				<File Id="237109077" Language="SFX">
 					<ShortName>Woosh Nuages.wav</ShortName>
 					<Path>SFX\Woosh Nuages_3FD50A59.wem</Path>
 				</File>
+				<File Id="244043836" Language="SFX">
+					<ShortName>Nail It 01-001.wav</ShortName>
+					<Path>SFX\Nail It 01-001_3FD50A59.wem</Path>
+				</File>
 				<File Id="244442526" Language="SFX">
 					<ShortName>Musique Thor.wav</ShortName>
 					<Path>SFX\Musique Thor_3EBA1927.wem</Path>
+				</File>
+				<File Id="256561158" Language="SFX">
+					<ShortName>AH 01-001.wav</ShortName>
+					<Path>SFX\AH 01-001_3FD50A59.wem</Path>
 				</File>
 				<File Id="261246998" Language="SFX">
 					<ShortName>Explosion Maison.wav</ShortName>
@@ -63,9 +98,17 @@
 					<ShortName>Bird Left 07-003.wav</ShortName>
 					<Path>SFX\Bird Left 07-003_3FD50A59.wem</Path>
 				</File>
+				<File Id="338448532" Language="SFX">
+					<ShortName>Sweet 01-001.wav</ShortName>
+					<Path>SFX\Sweet 01-001_3FD50A59.wem</Path>
+				</File>
 				<File Id="360466193" Language="SFX">
 					<ShortName>Bird Right 08-002.wav</ShortName>
 					<Path>SFX\Bird Right 08-002_3FD50A59.wem</Path>
+				</File>
+				<File Id="401743126" Language="SFX">
+					<ShortName>Game Over 01.wav</ShortName>
+					<Path>SFX\Game Over 01_3FD50A59.wem</Path>
 				</File>
 				<File Id="415982577" Language="SFX">
 					<ShortName>Wind.wav</ShortName>
@@ -102,6 +145,30 @@
 				<File Id="654645103" Language="SFX">
 					<ShortName>Plane.wav</ShortName>
 					<Path>SFX\Plane_3EBA1927.wem</Path>
+				</File>
+				<File Id="686137461" Language="SFX">
+					<ShortName>AH 01-004.wav</ShortName>
+					<Path>SFX\AH 01-004_3FD50A59.wem</Path>
+				</File>
+				<File Id="760034703" Language="SFX">
+					<ShortName>AH 01-002.wav</ShortName>
+					<Path>SFX\AH 01-002_3FD50A59.wem</Path>
+				</File>
+				<File Id="776948332" Language="SFX">
+					<ShortName>Ui-Great.wav</ShortName>
+					<Path>SFX\Ui-Great_3FD50A59.wem</Path>
+				</File>
+				<File Id="807565506" Language="SFX">
+					<ShortName>Sensitive 01-003.wav</ShortName>
+					<Path>SFX\Sensitive 01-003_3FD50A59.wem</Path>
+				</File>
+				<File Id="816886001" Language="SFX">
+					<ShortName>Great 01.wav</ShortName>
+					<Path>SFX\Great 01_3FD50A59.wem</Path>
+				</File>
+				<File Id="822221898" Language="SFX">
+					<ShortName>Perfect 01.wav</ShortName>
+					<Path>SFX\Perfect 01_3FD50A59.wem</Path>
 				</File>
 				<File Id="893082637" Language="SFX">
 					<ShortName>Phrase 2.wav</ShortName>

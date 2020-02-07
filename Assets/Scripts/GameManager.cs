@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     public CanvasGroup canvasUIButton;
     [HideInInspector] public UnityEvent onFailedEvent;
     [HideInInspector] public UnityEvent onSuccessEvent;
+    [HideInInspector] public UnityEvent OnGameOverEnd;
     public Transform nailTransform;
     public CanvasGroup title;
     public GamepadVibrate gamepadVibrate;
@@ -138,11 +139,14 @@ public class GameManager : MonoBehaviour
 
     public void ShowUI(bool show = true)
     {
-        float endValue = show ? 1f : 0f;
-        DOTween.To(() => canvasUIHammer.alpha, value => canvasUIHammer.alpha = value, endValue, 1);
         if (show)
         {
+            DOTween.To(() => canvasUIHammer.alpha, value => canvasUIHammer.alpha = value, 1, 1);
             DOTween.To(() => title.alpha, value => title.alpha = value, 0, 1);
+        }
+        else
+        {
+            canvasUIHammer.alpha = 0;
         }
     }
     
