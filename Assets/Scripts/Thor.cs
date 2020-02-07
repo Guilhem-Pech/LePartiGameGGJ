@@ -70,6 +70,11 @@ public class Thor : MonoBehaviour
         AkSoundEngine.PostEvent("Stop_Ambiance_calme", gameObject);
     }
 
+    private void NailIt()
+    {
+        AkSoundEngine.PostEvent("Voices/Nail_It", gameObject);
+    }
+
     private void Explosion()
     {
         AkSoundEngine.PostEvent("Explosion", gameObject);
