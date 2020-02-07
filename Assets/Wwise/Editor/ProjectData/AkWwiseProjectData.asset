@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: bfe369782b82ca4c8bd89526088a0210
     GuidInternal: 
-    m_lastTime: -8586208776193874206
+    m_lastTime: -8586205112768743784
     List:
     - name: Thor
       guid: ff4b996bd103f24da1347106e8ac5ab4
@@ -47,8 +47,22 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: fadf4aeac8c9d242bc4a5d8a4a7693bf
     GuidInternal: 
-    m_lastTime: -8586208776196571437
+    m_lastTime: -8586205112769382993
     List:
+    - name: Ah
+      guid: efd3fb7c0ac4984a818be391d427ff8e
+      id: 1886858546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Ah
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Ah
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Ambiance_calme
       guid: 20794f6c728d50419dda7314a4791094
       id: 659866630
@@ -70,6 +84,20 @@ MonoBehaviour:
       - ElementName: Confirmation_Nail
         ObjectType: 3
       Path: Default Work Unit\Confirmation_Nail
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Epic_Fail
+      guid: 766625bd0c176740906eec83f881a701
+      id: 1771327413
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Epic_Fail
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Epic_Fail
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -97,6 +125,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Game_Over
+      guid: db5ee226c568a248a537ddabcf1c29e3
+      id: 1432716332
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Game_Over
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Game_Over
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Game_over_electric_sparkles
       guid: 653d637f4bfd0b48a65bbf6ed070224b
       id: 1455994236
@@ -109,6 +151,34 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Great
+      guid: 1c4381f10631df4e8b711a788916584f
+      id: 4080177636
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Great
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Great
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: I_Have_Heard_You_Are_Good_At_Repair
+      guid: 626162d221711543b56256638dc44f74
+      id: 3223510987
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: I_Have_Heard_You_Are_Good_At_Repair
+        ObjectType: 3
+      Path: Default Work Unit\Voice\I_Have_Heard_You_Are_Good_At_Repair
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Nail
       guid: bb31d56b42010c4cb4b45c4572d01063
       id: 864764337
@@ -118,6 +188,34 @@ MonoBehaviour:
       - ElementName: Nail
         ObjectType: 3
       Path: Default Work Unit\Nail
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Nail_It
+      guid: a4045fb7d531674e805dd2cd8ee9c2d5
+      id: 3147681939
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Nail_It
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Nail_It
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Perfect
+      guid: 5dd6992c7c1cf74ba3362c127a5d6f79
+      id: 2161557176
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Perfect
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Perfect
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -154,6 +252,20 @@ MonoBehaviour:
       - ElementName: Play_Storm
         ObjectType: 3
       Path: Default Work Unit\Play_Storm
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Sensitive
+      guid: 5fde19980bbcba4d8fa19b54a69e9adc
+      id: 1207367695
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Sensitive
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Sensitive
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -205,6 +317,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Sweet
+      guid: 9abef9bd46384a45a28e9372019f0bf3
+      id: 2237492935
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Voice
+        ObjectType: 4
+      - ElementName: Sweet
+        ObjectType: 3
+      Path: Default Work Unit\Voice\Sweet
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Test
       guid: f7e807479a9a7d4c85d076739aae7b43
       id: 3157003241
@@ -214,6 +340,34 @@ MonoBehaviour:
       - ElementName: Test
         ObjectType: 3
       Path: Default Work Unit\Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ui_Normal
+      guid: d84387109b670c49b9a971154ac22856
+      id: 4196703455
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ui
+        ObjectType: 4
+      - ElementName: Ui_Normal
+        ObjectType: 3
+      Path: Default Work Unit\Ui\Ui_Normal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ui_Perfect
+      guid: 42f817e6db7afa42a3540f3fc9f4ad97
+      id: 1936177545
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ui
+        ObjectType: 4
+      - ElementName: Ui_Perfect
+        ObjectType: 3
+      Path: Default Work Unit\Ui\Ui_Perfect
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
