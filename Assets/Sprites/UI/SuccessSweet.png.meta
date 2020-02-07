@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 90c280ad5f78bcc47a288d8cbbb0c1d3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9209214291883618055
+    second: SuccessSweet_0
+  - first:
+      213: -4486530819958076922
+    second: SuccessSweet_1
+  - first:
+      213: -6018142838036141690
+    second: SuccessSweet_2
+  - first:
+      213: 234841004669027608
+    second: SuccessSweet_3
+  - first:
+      213: 3663638604582932308
+    second: SuccessSweet_4
+  - first:
+      213: -2279665740877880986
+    second: SuccessSweet_5
+  - first:
+      213: -3692744378078882664
+    second: SuccessSweet_6
+  - first:
+      213: -1599922103425069826
+    second: SuccessSweet_7
+  - first:
+      213: -7675200979655305721
+    second: SuccessSweet_8
+  - first:
+      213: 9022574518835554072
+    second: SuccessSweet_9
+  - first:
+      213: 8172496653254652690
+    second: SuccessSweet_10
+  - first:
+      213: -3238843800879759499
+    second: SuccessSweet_11
+  - first:
+      213: 8571106020478983944
+    second: SuccessSweet_12
+  - first:
+      213: -8007438870190397466
+    second: SuccessSweet_13
+  - first:
+      213: 640398951869842453
+    second: SuccessSweet_14
+  - first:
+      213: 5294063191741510129
+    second: SuccessSweet_15
+  - first:
+      213: -734083410591190901
+    second: SuccessSweet_16
+  - first:
+      213: -9121027545881209760
+    second: SuccessSweet_17
+  - first:
+      213: 7956443139627829612
+    second: SuccessSweet_18
+  - first:
+      213: -8629137224172857316
+    second: SuccessSweet_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -120,7 +180,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SuccessSweet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f6c202b93bdcf70800000000000000
+      internalID: 9209214291883618055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8e8a6df3acb1c0800000000000000
+      internalID: -4486530819958076922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6896b4b69f24b7ca0800000000000000
+      internalID: -6018142838036141690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8154ef546a2524300800000000000000
+      internalID: 234841004669027608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fc29b66ebd7d230800000000000000
+      internalID: 3663638604582932308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a85c36100d50e0800000000000000
+      internalID: -2279665740877880986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894994a9d8cb0ccc0800000000000000
+      internalID: -3692744378078882664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc8d0dd25febc9e0800000000000000
+      internalID: -1599922103425069826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7065aebbf553c7590800000000000000
+      internalID: -7675200979655305721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8172fa2a8bf963d70800000000000000
+      internalID: 9022574518835554072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213ff49086a8a6170800000000000000
+      internalID: 8172496653254652690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ff59529b05d03d0800000000000000
+      internalID: -3238843800879759499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f9cd2938fa2f670800000000000000
+      internalID: 8571106020478983944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e765a5d5ccdfd090800000000000000
+      internalID: -8007438870190397466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5140cb8247723e800800000000000000
+      internalID: 640398951869842453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1393a7c6a487940800000000000000
+      internalID: 5294063191741510129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b807434070300d5f0800000000000000
+      internalID: -734083410591190901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0649235b5c99b6180800000000000000
+      internalID: -9121027545881209760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_18
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c694c1561e6fa6e60800000000000000
+      internalID: 7956443139627829612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSweet_19
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18931be9652f3880800000000000000
+      internalID: -8629137224172857316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

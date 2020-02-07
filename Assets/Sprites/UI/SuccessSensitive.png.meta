@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 8d587e14d92f91d4fb602287e24facc7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1118263272470383761
+    second: SuccessSensitive_0
+  - first:
+      213: -1513892379260701385
+    second: SuccessSensitive_1
+  - first:
+      213: 7263184727192739159
+    second: SuccessSensitive_2
+  - first:
+      213: -2574513676210332923
+    second: SuccessSensitive_3
+  - first:
+      213: 4411429440623231748
+    second: SuccessSensitive_4
+  - first:
+      213: -4081312279309420555
+    second: SuccessSensitive_5
+  - first:
+      213: -1861519184575000750
+    second: SuccessSensitive_6
+  - first:
+      213: 1577163028535453084
+    second: SuccessSensitive_7
+  - first:
+      213: -6268461028181952378
+    second: SuccessSensitive_8
+  - first:
+      213: 6876348219262518020
+    second: SuccessSensitive_9
+  - first:
+      213: 2620668167542413916
+    second: SuccessSensitive_10
+  - first:
+      213: -472879628735205085
+    second: SuccessSensitive_11
+  - first:
+      213: 7646207706173342276
+    second: SuccessSensitive_12
+  - first:
+      213: 8747333813230290909
+    second: SuccessSensitive_13
+  - first:
+      213: -5011166103896765892
+    second: SuccessSensitive_14
+  - first:
+      213: -1918111040370977190
+    second: SuccessSensitive_15
+  - first:
+      213: -1357099417231700331
+    second: SuccessSensitive_16
+  - first:
+      213: 2191593016109406030
+    second: SuccessSensitive_17
+  - first:
+      213: -2800744428069552211
+    second: SuccessSensitive_18
+  - first:
+      213: -2141065224696447668
+    second: SuccessSensitive_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -120,7 +180,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SuccessSensitive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c86f0858ed48f00800000000000000
+      internalID: 1118263272470383761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735bef9e6e29dfae0800000000000000
+      internalID: -1513892379260701385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d9d5207040cc460800000000000000
+      internalID: 7263184727192739159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2560
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b191ca37d754cd0800000000000000
+      internalID: -2574513676210332923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4034c0814bb883d30800000000000000
+      internalID: 4411429440623231748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7725e0b144c57c0800000000000000
+      internalID: -4081312279309420555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f05d41a2e8a26e0800000000000000
+      internalID: -1861519184575000750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1920
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c952cb41b6533e510800000000000000
+      internalID: 1577163028535453084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b5d618e3f109a0800000000000000
+      internalID: -6268461028181952378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4034801e542bd6f50800000000000000
+      internalID: 6876348219262518020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a1a8040db7e5420800000000000000
+      internalID: 2620668167542413916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1280
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32138bbab7eff69f0800000000000000
+      internalID: -472879628735205085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442015db569cc1a60800000000000000
+      internalID: 7646207706173342276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7ca5df1c5c46970800000000000000
+      internalID: 8747333813230290909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a41c29af2c47ab0800000000000000
+      internalID: -5011166103896765892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 640
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56deeedb208165e0800000000000000
+      internalID: -1918111040370977190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec30f254d9a2de0800000000000000
+      internalID: -1357099417231700331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479d619c3a1a6e10800000000000000
+      internalID: 2191593016109406030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_18
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf724a18c1c129d0800000000000000
+      internalID: -2800744428069552211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessSensitive_19
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4db601a5886942e0800000000000000
+      internalID: -2141065224696447668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
