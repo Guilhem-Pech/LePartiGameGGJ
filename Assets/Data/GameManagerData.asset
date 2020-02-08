@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idleAddForce: 2
   decreasePowerPerSecond: 10
-  minHammerPowerEnteringMinigame: 10
+  minHammerPowerEnteringMinigame: 8
   smashAddForce: 2
-  thresholdReturnToIdle: 8
+  thresholdReturnToIdle: 1
   minTimerMinigame: 19
   maxTimerMinigame: 19
   kaboomThreshold: 25
