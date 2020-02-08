@@ -10,6 +10,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.DualShock;
 using UnityEngine.InputSystem.XInput;
 using UnityEngine.UI;
+
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
     
     [Header("Data to modify to tweak the values, made for the Game Designer")] public GameManagerData gameManagerData;
     public ButtonIcon[] buttonIcon;
-    
+    public NailPopup nailPopup;
     
     [Header("Mainly for the developers")] 
     public TextMeshProUGUI hammerPowerDebug;
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public UnityEvent onFailedEvent;
     [HideInInspector] public UnityEvent onSuccessEvent;
     [HideInInspector] public UnityEvent OnGameOverEnd;
+    [HideInInspector] public UnityEvent onNailedHit;
     public Transform nailTransform;
     public CanvasGroup title;
     public GamepadVibrate gamepadVibrate;

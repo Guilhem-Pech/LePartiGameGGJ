@@ -30,6 +30,8 @@ public class Thor : MonoBehaviour
     }
     private void OnHitNail()
     {
+        GameManager.Instance.onNailedHit.Invoke();
+
         AkSoundEngine.PostEvent("Nail", gameObject);
         if (GameManager.Instance.NailProgress >= 100f)
         {

@@ -24,3 +24,4 @@ MonoBehaviour:
   levelTwoThunderbolt: 20
   levelThreeThunderbolt: 26
   shakeMin: 10
+  successTime: 6

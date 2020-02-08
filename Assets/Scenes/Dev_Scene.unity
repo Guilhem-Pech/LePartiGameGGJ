@@ -303,7 +303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &60243227
 RectTransform:
   m_ObjectHideFlags: 0
@@ -337,8 +337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -360,25 +360,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60243226}
   m_CullTransparentMesh: 0
---- !u!95 &60243230
-Animator:
-  serializedVersion: 3
+--- !u!114 &60243230
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60243226}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 52e27e1235d270b44bc2e49250b2baef, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0919cf4d3ec4ae3adbc2226003d5bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 60243228}
+  text: {fileID: 1244866639}
 --- !u!1 &121573660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1556,6 +1551,7 @@ MonoBehaviour:
     sprite: {fileID: 22100000, guid: 2194c8b456213fa4da006804d811a1b2, type: 2}
   - Name: PC
     sprite: {fileID: 22100000, guid: 36293b9f4b689e6479e1f8f53f183e1c, type: 2}
+  nailPopup: {fileID: 60243230}
   hammerPowerDebug: {fileID: 468339846}
   currentState: {fileID: 1133866767}
   hammerUI: {fileID: 51632684}
@@ -1572,6 +1568,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnGameOverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  onNailedHit:
     m_PersistentCalls:
       m_Calls: []
   nailTransform: {fileID: 1405215679}
@@ -4150,7 +4149,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
