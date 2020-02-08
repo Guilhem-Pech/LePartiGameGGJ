@@ -2,6 +2,7 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace UI
@@ -11,7 +12,8 @@ namespace UI
         // Start is called before the first frame update
         private TextMeshProUGUI _percentage;
         private Tweener _options;
-        public Image[] fillBar;
+        [FormerlySerializedAs("fillBar")] [SerializeField]
+        private Image[] imageToColor;
 
         private void Start()
         {
@@ -26,7 +28,7 @@ namespace UI
 
         private void SetImgColor(Color color)
         {
-            foreach (Image image in fillBar) image.color = color;
+            foreach (Image image in imageToColor) image.color = color;
         }
         
         private static Color GetColor(int percent)

@@ -3171,10 +3171,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30d0b1345f00054682f003a06ab6c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fillBar:
+  imageToColor:
   - {fileID: 1681687899}
   - {fileID: 2114062424}
   - {fileID: 1840832293}
+  - {fileID: 1348220464}
 --- !u!114 &1362870011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4149,7 +4150,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
