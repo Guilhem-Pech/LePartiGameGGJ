@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
         set
         {
             _nailProgress = Mathf.Clamp(value,0,100);
-            nailTransform.DOLocalMove(new Vector3(0,-(value / 100f),0), 0.3f);
+            nailTransform.DOLocalMove(new Vector3(0,-(_nailProgress / 100f),0), 0.3f);
         }
     }
 
