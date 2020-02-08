@@ -39,6 +39,11 @@ public class Thor : MonoBehaviour
         }
     }
 
+    private void OnGameOver()
+    {
+        GameManager.Instance.OnGameOverEnd.Invoke();
+    }
+    
     private void PlayMarteauIdleSound()
     {
         AkSoundEngine.PostEvent("Play_Charge_Marteau_Loop", gameObject);
