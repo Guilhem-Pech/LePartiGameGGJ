@@ -427,6 +427,7 @@ MonoBehaviour:
   - /Session Wwise Thor
   - /Session Wwise Thor/Events
   - /Session Wwise Thor/Events/Default Work Unit
+  - /Session Wwise Thor/Events/Default Work Unit/Ui
   - /Session Wwise Thor/Events/Default Work Unit/Voice
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -111,6 +111,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a53279edab6362f469acfa14065af191,
       type: 2}
+  uiEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d73ab7f9f68d510419ad6101cd14356f,
+      type: 2}
 --- !u!1101 &-2348130454966593818
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -251,6 +256,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 87502bb1890079b4eb52f0acf97114d9,
+      type: 2}
+  uiEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d73ab7f9f68d510419ad6101cd14356f,
       type: 2}
 --- !u!1102 &4516872320467084413
 AnimatorState:
@@ -415,6 +425,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 87da333bd9964424686b5bf796ac2f96,
       type: 2}
+  uiEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d73ab7f9f68d510419ad6101cd14356f,
+      type: 2}
 --- !u!114 &8743798771468426929
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -431,6 +446,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 3cd0a150119b10c45b18842f5eb6056f,
+      type: 2}
+  uiEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 094eef31cc4c45741a8339f499a27dd2,
       type: 2}
 --- !u!1101 &8769325706362477776
 AnimatorStateTransition:
