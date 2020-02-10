@@ -62,11 +62,7 @@ public class GameManager : MonoBehaviour
 
     public int NailProgress
     {
-        get
-        {
-            Debug.Log("NAIL PROGRESS: " + _nailProgress);
-            return _nailProgress;
-        } 
+        get => _nailProgress;
         set
         {
             _nailProgress = Mathf.Clamp(value,0,100);
