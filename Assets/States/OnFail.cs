@@ -17,6 +17,7 @@ namespace States
             GameManager.Instance.ShowUI(false);
             GameManager.Instance.ShowUIButton(false);
             GameManager.Instance.OnGameOverEnd.AddListener(OnGameOverEnd);
+            GameManager.Instance.HammerPower = 0f;
 
         }
 
@@ -29,7 +30,6 @@ namespace States
             int layerIndex)
         {
             GameManager.Instance.NailProgress = 0;
-            GameManager.Instance.HammerPower = 0f;
             GameManager.Instance.OnGameOverEnd.RemoveListener(OnGameOverEnd);
         }
         

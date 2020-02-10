@@ -44,7 +44,8 @@ namespace States
             GameManager.Instance.NailProgress += (int) GameManager.Instance.HammerPower > 24
                 ? 25
                 : (int) GameManager.Instance.HammerPower;
-
+            
+            GameManager.Instance.HammerPower = 0;
             DOTween.To(() => text, value => text = value, GameManager.Instance.NailProgress, 0.6f).OnUpdate(() =>
             {
                 _nailPopup.text.text = $"{text}%";
@@ -67,9 +68,7 @@ namespace States
             _nailPopup.text.DOFade(0, 0.5f);
 
             _nailPopup.gameObject.SetActive(false);
-
-            GameManager.Instance.HammerPower = 0f;
-            GameManager.Instance.backgroundAnimator.SetBool(PreventRestart,false);
+            Timer.Register(1f, () => GameManager.Instance.backgroundAnimator.SetBool(PreventRestart, false));
             GameManager.Instance.onNailedHit.RemoveListener(OnNailedHit);
         }
 

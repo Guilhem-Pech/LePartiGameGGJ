@@ -22,6 +22,8 @@ namespace States.Environement.Thor
         {
             if(_gameManager.HammerPower >= minPower)
                 animator.SetTrigger(NextState);
+            else
+                animator.ResetTrigger(NextState);
         }
     }
 }
