@@ -1851,6 +1851,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6597e20752eb6ab41816c3504c3c7d3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  naildItEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0fa9a67691ad360418f521659b1ea222,
+      type: 2}
 --- !u!212 &879428426
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -7,7 +7,8 @@ public class Thor : MonoBehaviour
 {
     private static readonly int NextState = Animator.StringToHash("NextState");
     private static readonly int LowerHammer = Animator.StringToHash("LowerHammer");
-
+    public AK.Wwise.Event naildItEvent;
+    
     // Start is called before the first frame update
     private void OnFailedAnimEnded()
     {
@@ -80,7 +81,7 @@ public class Thor : MonoBehaviour
     private void NailIt()
     {
         AkSoundEngine.PostEvent("Stop_Ambiance_calme", gameObject);
-        AkSoundEngine.PostEvent("Voice/Nail_It", gameObject);
+        AkSoundEngine.PostEvent(naildItEvent.Id, gameObject);
     }
 
     private void Explosion()

@@ -45,13 +45,15 @@ namespace States
                 ? 25
                 : (int) GameManager.Instance.HammerPower;
             
+            
+            GameManager.Instance.successUIAnimator.SetInteger(Percent,(int) GameManager.Instance.HammerPower);
+            GameManager.Instance.successUIAnimator.SetTrigger(TriggerLaunchSuccessAnim);
             GameManager.Instance.HammerPower = 0;
             DOTween.To(() => text, value => text = value, GameManager.Instance.NailProgress, 0.6f).OnUpdate(() =>
             {
                 _nailPopup.text.text = $"{text}%";
             }); 
-            GameManager.Instance.successUIAnimator.SetInteger(Percent,(int) GameManager.Instance.HammerPower);
-            GameManager.Instance.successUIAnimator.SetTrigger(TriggerLaunchSuccessAnim);
+            
             
         }
 
