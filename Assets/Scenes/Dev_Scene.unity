@@ -1856,6 +1856,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 0fa9a67691ad360418f521659b1ea222,
       type: 2}
+  sparkleEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 183c9f601cb1f9945bdd7a10f50c9a26,
+      type: 2}
+  creditMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7030d1637ff2dec49849cee18100df0c,
+      type: 2}
 --- !u!212 &879428426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1978,12 +1988,12 @@ PrefabInstance:
     - target: {fileID: 5691663031678280686, guid: 3b0fe1458130fcc498e83cc326d5de56,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 887.11115
       objectReference: {fileID: 0}
     - target: {fileID: 5691663032832606889, guid: 3b0fe1458130fcc498e83cc326d5de56,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 887.11115
       objectReference: {fileID: 0}
     - target: {fileID: 5691663033236027259, guid: 3b0fe1458130fcc498e83cc326d5de56,
         type: 3}

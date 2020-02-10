@@ -8,6 +8,8 @@ public class Thor : MonoBehaviour
     private static readonly int NextState = Animator.StringToHash("NextState");
     private static readonly int LowerHammer = Animator.StringToHash("LowerHammer");
     public AK.Wwise.Event naildItEvent;
+    public AK.Wwise.Event sparkleEvent;
+    public AK.Wwise.Event creditMusicEvent;
     
     // Start is called before the first frame update
     private void OnFailedAnimEnded()
@@ -65,12 +67,12 @@ public class Thor : MonoBehaviour
 
     private void SparklesGameOver()
     {
-        AkSoundEngine.PostEvent("Game_over_electric_sparkles", gameObject);
+        sparkleEvent.Post(gameObject);
     }
 
     private void CreditsMusic()
     {
-        AkSoundEngine.PostEvent("Play_Music", gameObject);
+        creditMusicEvent.Post(gameObject);
     }
 
     private void StopAmbiance()
