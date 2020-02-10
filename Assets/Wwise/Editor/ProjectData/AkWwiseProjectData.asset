@@ -425,5 +425,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Session Wwise Thor
+  - /Session Wwise Thor/Events
+  - /Session Wwise Thor/Events/Default Work Unit
+  - /Session Wwise Thor/Events/Default Work Unit/Voice
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

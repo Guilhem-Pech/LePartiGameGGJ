@@ -115,6 +115,7 @@ public class GameManager : MonoBehaviour
 
     private float _hammerPower;
     private int _nailProgress;
+    public Animator successUIAnimator;
 
 
     private void Update()

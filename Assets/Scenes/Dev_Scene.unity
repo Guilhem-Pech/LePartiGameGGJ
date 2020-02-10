@@ -1577,6 +1577,7 @@ MonoBehaviour:
   title: {fileID: 1058848090}
   gamepadVibrate: {fileID: 1831190730}
   endScreen: {fileID: 1905647957}
+  successUIAnimator: {fileID: 43780373}
 --- !u!4 &521691963
 Transform:
   m_ObjectHideFlags: 0

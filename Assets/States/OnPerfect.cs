@@ -12,10 +12,15 @@ namespace States
         private static readonly int PreventRestart = Animator.StringToHash("PreventRestart");
         private NailPopup _nailPopup;
         private Animator _animator;
+        private Animator _successAnimator;
+        private static readonly int Percent = Animator.StringToHash("Percent");
+        private static readonly int TriggerLaunchSuccessAnim = Animator.StringToHash("TriggerLaunchSuccessAnim");
+
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
         {
             _nailPopup = GameManager.Instance.nailPopup;
+            _successAnimator = GameManager.Instance.successUIAnimator;
             _animator = animator;
             GameManager.Instance.currentState.SetText("YOU NAILED IT");
             GameManager.Instance.onSuccessEvent.Invoke();
@@ -44,7 +49,9 @@ namespace States
             {
                 _nailPopup.text.text = $"{text}%";
             }); 
-
+            GameManager.Instance.successUIAnimator.SetInteger(Percent,(int) GameManager.Instance.HammerPower);
+            GameManager.Instance.successUIAnimator.SetTrigger(TriggerLaunchSuccessAnim);
+            
         }
 
 
