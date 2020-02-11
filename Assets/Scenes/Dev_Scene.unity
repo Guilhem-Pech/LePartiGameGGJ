@@ -1866,6 +1866,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 7030d1637ff2dec49849cee18100df0c,
       type: 2}
+  gameOverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 77143b2e46a466541bd13084ac392020,
+      type: 2}
 --- !u!212 &879428426
 SpriteRenderer:
   m_ObjectHideFlags: 0

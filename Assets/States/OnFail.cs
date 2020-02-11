@@ -17,6 +17,7 @@ namespace States
             GameManager.Instance.ShowUIButton(false);
             GameManager.Instance.OnGameOverEnd.AddListener(OnGameOverEnd);
             GameManager.Instance.HammerPower = 0f;
+            GameManager.Instance.NailProgress = 0;
 
         }
 
@@ -28,7 +29,6 @@ namespace States
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
             int layerIndex)
         {
-            GameManager.Instance.NailProgress = 0;
             GameManager.Instance.OnGameOverEnd.RemoveListener(OnGameOverEnd);
         }
         

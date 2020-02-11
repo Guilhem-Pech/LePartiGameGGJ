@@ -10,6 +10,7 @@ public class Thor : MonoBehaviour
     public AK.Wwise.Event naildItEvent;
     public AK.Wwise.Event sparkleEvent;
     public AK.Wwise.Event creditMusicEvent;
+    public AK.Wwise.Event gameOverEvent;
     
     // Start is called before the first frame update
     private void OnFailedAnimEnded()
@@ -45,6 +46,11 @@ public class Thor : MonoBehaviour
     private void OnGameOver()
     {
         GameManager.Instance.OnGameOverEnd.Invoke();
+    }
+
+    private void GameOverSound()
+    {
+        gameOverEvent.Post(gameObject);
     }
     
     private void PlayMarteauIdleSound()
