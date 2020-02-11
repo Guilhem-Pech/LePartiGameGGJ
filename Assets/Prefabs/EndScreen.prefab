@@ -2707,6 +2707,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93ff573ac487c8c4cadc8df8e753c505,
       type: 2}
+  mystesriousEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb62ed92713ca72408b2f5c627d7ca73,
+      type: 2}
 --- !u!1 &5691663033275367221
 GameObject:
   m_ObjectHideFlags: 0
