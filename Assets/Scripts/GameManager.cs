@@ -16,10 +16,9 @@ using Random = UnityEngine.Random;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    private Animator _animator;
     [SerializeField]
     private PlayerInput playerInput;
-    
+
     [Header("Data to modify to tweak the values, made for the Game Designer")] public GameManagerData gameManagerData;
     public ButtonIcon[] buttonIcon;
     public NailPopup nailPopup;
@@ -70,9 +69,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    
+    
     private void Start()
     {
-        _animator = GetComponent<Animator>();
         hammerUIanim = hammerUI.transform.DOShakePosition(1,5,10,90f,false,false).SetLoops(-1,LoopType.Yoyo).Pause();
     }
 
