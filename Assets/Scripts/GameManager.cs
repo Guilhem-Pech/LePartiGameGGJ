@@ -74,20 +74,25 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         hammerUIanim = hammerUI.transform.DOShakePosition(1,5,10,90f,false,false).SetLoops(-1,LoopType.Yoyo).Pause();
+        playerInput.onControlsChanged += PlayerInputOnOnControlsChanged;
     }
 
-    private RuntimeAnimatorController GetUseButtonSprite(InputDevice inputDevice)
+    private void PlayerInputOnOnControlsChanged(PlayerInput obj)
     {
-        switch (inputDevice)
+        WitchDeviceWasUse(obj.currentControlScheme);
+    }
+
+    private RuntimeAnimatorController GetUseButtonSprite(string controlScheme)
+    {
+        switch (controlScheme)
         {
-            case Keyboard _:
+            case "Keyboard&Mouse":
                 return GetSprite("PC");
-            case DualShockGamepad _:
+            case "PS4":
+            case "PC Gamepad":
                 return GetSprite("PS4");
-            case XInputControllerWindows _:
+            case "Gamepad":
                 return GetSprite("XBox");
-            case Gamepad _:
-                return GetSprite("PS4"); 
             default:
                 return GetSprite("PC");
         }
@@ -131,7 +136,7 @@ public class GameManager : MonoBehaviour
         return Random.Range(gameManagerData.minTimerMinigame, gameManagerData.maxTimerMinigame);
     }
 
-    public void WitchDeviceWasUse(InputDevice controlDevice)
+    public void WitchDeviceWasUse(string controlDevice)
     {
         buttonImage.gameObject.GetComponent<Animator>().runtimeAnimatorController = GetUseButtonSprite(controlDevice);
     }

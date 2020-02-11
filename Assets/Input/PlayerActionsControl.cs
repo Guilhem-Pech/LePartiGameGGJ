@@ -54,7 +54,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""name"": ""Use"",
                     ""type"": ""Button"",
                     ""id"": ""49f33385-bf1f-4a42-88ed-bdd344d7cddb"",
-                    ""expectedControlType"": """",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -77,7 +77,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/dpad/up"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4"",
                     ""action"": ""Up"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -88,7 +88,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/leftStick/up"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4"",
                     ""action"": ""Up"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -121,7 +121,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/leftStick/down"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4"",
                     ""action"": ""Down"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -143,7 +143,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/dpad/right"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4"",
                     ""action"": ""Right"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -154,7 +154,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/leftStick/right"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4"",
                     ""action"": ""Right"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -176,7 +176,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/dpad/left"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4;PC Gamepad"",
                     ""action"": ""Left"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -187,7 +187,7 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""Gamepad;PS4"",
                     ""action"": ""Left"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -216,11 +216,11 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""df1c9034-cbad-4bbd-a279-3d5221dd1a71"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""id"": ""2493ce41-11f0-465e-877d-2246adbadab4"",
+                    ""path"": ""<DualShockGamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad"",
+                    ""groups"": ""PS4"",
                     ""action"": ""Use"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -232,6 +232,17 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""PC Gamepad"",
+                    ""action"": ""Use"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""df1c9034-cbad-4bbd-a279-3d5221dd1a71"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
                     ""action"": ""Use"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -813,6 +824,17 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
                     ""isOR"": false
                 }
             ]
+        },
+        {
+            ""name"": ""PS4"",
+            ""bindingGroup"": ""PS4"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<DualShockGamepad>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
         }
     ]
 }");
@@ -1111,6 +1133,15 @@ public class @PlayerActionsControl : IInputActionCollection, IDisposable
         {
             if (m_PCGamepadSchemeIndex == -1) m_PCGamepadSchemeIndex = asset.FindControlSchemeIndex("PC Gamepad");
             return asset.controlSchemes[m_PCGamepadSchemeIndex];
+        }
+    }
+    private int m_PS4SchemeIndex = -1;
+    public InputControlScheme PS4Scheme
+    {
+        get
+        {
+            if (m_PS4SchemeIndex == -1) m_PS4SchemeIndex = asset.FindControlSchemeIndex("PS4");
+            return asset.controlSchemes[m_PS4SchemeIndex];
         }
     }
     public interface IPlayerActions
