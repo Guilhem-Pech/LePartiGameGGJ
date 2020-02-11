@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4277a5076bb97224ca387ff3b10a7c68, type: 3}
-  m_Name: 4707E8F7-9A9A-4C7D-85D0-76739AAE7B43
+  m_Name: C5878369-856A-49C5-B380-C44F1D48538F
   m_EditorClassIdentifier: 
-  objectName: Test
-  id: 3157003241
-  guid: 4707E8F7-9A9A-4C7D-85D0-76739AAE7B43
+  objectName: Musique_credits
+  id: 356101965
+  guid: C5878369-856A-49C5-B380-C44F1D48538F

@@ -24,14 +24,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 285a90586e8b6d4ba41222f7ddb299fb
     GuidInternal: 
-    m_lastTime: -8586208776196541469
+    m_lastTime: -8586201816053152464
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: bfe369782b82ca4c8bd89526088a0210
     GuidInternal: 
-    m_lastTime: -8586205112768743784
+    m_lastTime: -8586201816052105256
     List:
     - name: Thor
       guid: ff4b996bd103f24da1347106e8ac5ab4
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: fadf4aeac8c9d242bc4a5d8a4a7693bf
     GuidInternal: 
-    m_lastTime: -8586205112769382993
+    m_lastTime: -8586201816053102596
     List:
     - name: Ah
       guid: efd3fb7c0ac4984a818be391d427ff8e
@@ -176,6 +176,18 @@ MonoBehaviour:
       - ElementName: I_Have_Heard_You_Are_Good_At_Repair
         ObjectType: 3
       Path: Default Work Unit\Voice\I_Have_Heard_You_Are_Good_At_Repair
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Musique_credits
+      guid: 698387c56a85c549b380c44f1d48538f
+      id: 356101965
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Musique_credits
+        ObjectType: 3
+      Path: Default Work Unit\Musique_credits
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -331,15 +343,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Test
-      guid: f7e807479a9a7d4c85d076739aae7b43
-      id: 3157003241
+    - name: Thunder
+      guid: c8216aac106632459e474fdda6e16fb8
+      id: 186852181
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test
+      - ElementName: Thunder
         ObjectType: 3
-      Path: Default Work Unit\Test
+      Path: Default Work Unit\Thunder
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ui_Nail_It
+      guid: 308ab98638d94f418d95d52fbaa4770b
+      id: 649548402
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ui
+        ObjectType: 4
+      - ElementName: Ui_Nail_It
+        ObjectType: 3
+      Path: Default Work Unit\Ui\Ui_Nail_It
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -427,7 +453,6 @@ MonoBehaviour:
   - /Session Wwise Thor
   - /Session Wwise Thor/Events
   - /Session Wwise Thor/Events/Default Work Unit
-  - /Session Wwise Thor/Events/Default Work Unit/Ui
   - /Session Wwise Thor/Events/Default Work Unit/Voice
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

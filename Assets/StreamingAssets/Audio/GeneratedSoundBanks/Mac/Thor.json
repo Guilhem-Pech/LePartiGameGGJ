@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "134",
   "RootPaths": {
-   "ProjectRoot": "G:\\Users\\guilh\\Unity\\GGJThorWwise\\",
-   "SourceFilesRoot": "G:\\Users\\guilh\\Unity\\GGJThorWwise\\.cache\\Mac\\",
-   "SoundBanksRoot": "G:\\Users\\guilh\\Unity\\LePartiGameGGJ\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "D:\\Users\\guilh\\Unity\\ggj\\GGJThorWwise\\",
+   "SourceFilesRoot": "D:\\Users\\guilh\\Unity\\ggj\\GGJThorWwise\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Users\\guilh\\Unity\\ggj\\LePartiGameGGJ\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "G:\\Users\\guilh\\Unity\\GGJThorWwise\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "D:\\Users\\guilh\\Unity\\ggj\\GGJThorWwise\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
@@ -107,6 +107,15 @@
       "DurationType": "OneShot",
       "DurationMin": "7.991963",
       "DurationMax": "7.991963"
+     },
+     {
+      "Id": "356101965",
+      "Name": "Musique_credits",
+      "ObjectPath": "\\Events\\Default Work Unit\\Musique_credits",
+      "GUID": "{C5878369-856A-49C5-B380-C44F1D48538F}",
+      "DurationType": "OneShot",
+      "DurationMin": "25.671833",
+      "DurationMax": "25.671833"
      },
      {
       "Id": "864764337",
@@ -217,13 +226,22 @@
       "DurationMax": "2.386812"
      },
      {
-      "Id": "3157003241",
-      "Name": "Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\Test",
-      "GUID": "{4707E8F7-9A9A-4C7D-85D0-76739AAE7B43}",
+      "Id": "186852181",
+      "Name": "Thunder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Thunder",
+      "GUID": "{AC6A21C8-6610-4532-9E47-4FDDA6E16FB8}",
       "DurationType": "OneShot",
-      "DurationMin": "13.013633",
-      "DurationMax": "13.013633"
+      "DurationMin": "4.449208",
+      "DurationMax": "5.365104"
+     },
+     {
+      "Id": "649548402",
+      "Name": "Ui_Nail_It",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ui\\Ui_Nail_It",
+      "GUID": "{86B98A30-D938-414F-8D95-D52FBAA4770B}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.605042",
+      "DurationMax": "3.605042"
      },
      {
       "Id": "4196703455",
@@ -282,10 +300,22 @@
       "Path": "SFX\\Amb-bird_3EBA1927.wem"
      },
      {
+      "Id": "127782652",
+      "Language": "SFX",
+      "ShortName": "Thunder_01-002.wav",
+      "Path": "SFX\\Thunder_01-002_3FD50A59.wem"
+     },
+     {
       "Id": "144734738",
       "Language": "SFX",
       "ShortName": "Epic Fail 01-002.wav",
       "Path": "SFX\\Epic Fail 01-002_3FD50A59.wem"
+     },
+     {
+      "Id": "176406640",
+      "Language": "SFX",
+      "ShortName": "Thunder_01-004.wav",
+      "Path": "SFX\\Thunder_01-004_3FD50A59.wem"
      },
      {
       "Id": "185071948",
@@ -348,6 +378,12 @@
       "Path": "SFX\\Bird Right 08-002_3FD50A59.wem"
      },
      {
+      "Id": "363357343",
+      "Language": "SFX",
+      "ShortName": "Cows_bells.wav",
+      "Path": "SFX\\Cows_bells_3FD50A59.wem"
+     },
+     {
       "Id": "401743126",
       "Language": "SFX",
       "ShortName": "Game Over 01.wav",
@@ -358,6 +394,12 @@
       "Language": "SFX",
       "ShortName": "Wind.wav",
       "Path": "SFX\\Wind_3EBA1927.wem"
+     },
+     {
+      "Id": "432398137",
+      "Language": "SFX",
+      "ShortName": "Thunder_01-001.wav",
+      "Path": "SFX\\Thunder_01-001_3FD50A59.wem"
      },
      {
       "Id": "455162993",
@@ -414,16 +456,34 @@
       "Path": "SFX\\AH 01-004_3FD50A59.wem"
      },
      {
+      "Id": "727737523",
+      "Language": "SFX",
+      "ShortName": "Musique_version_crédits.wav",
+      "Path": "SFX\\Musique_version_crédits_3FD50A59.wem"
+     },
+     {
       "Id": "760034703",
       "Language": "SFX",
       "ShortName": "AH 01-002.wav",
       "Path": "SFX\\AH 01-002_3FD50A59.wem"
      },
      {
+      "Id": "761603598",
+      "Language": "SFX",
+      "ShortName": "Thunder_01-003.wav",
+      "Path": "SFX\\Thunder_01-003_3FD50A59.wem"
+     },
+     {
       "Id": "776948332",
       "Language": "SFX",
       "ShortName": "Ui-Great.wav",
       "Path": "SFX\\Ui-Great_3FD50A59.wem"
+     },
+     {
+      "Id": "800402162",
+      "Language": "SFX",
+      "ShortName": "Ui-Nail-It.wav",
+      "Path": "SFX\\Ui-Nail-It_3FD50A59.wem"
      },
      {
       "Id": "807565506",
@@ -444,10 +504,10 @@
       "Path": "SFX\\Perfect 01_3FD50A59.wem"
      },
      {
-      "Id": "893082637",
+      "Id": "831082017",
       "Language": "SFX",
-      "ShortName": "Phrase 2.wav",
-      "Path": "SFX\\Phrase 2_49B363BD.wem"
+      "ShortName": "Cows.wav",
+      "Path": "SFX\\Cows_3FD50A59.wem"
      },
      {
       "Id": "996420633",

@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID GAME_OVER_ELECTRIC_SPARKLES = 1455994236U;
         static const AkUniqueID GREAT = 4080177636U;
         static const AkUniqueID I_HAVE_HEARD_YOU_ARE_GOOD_AT_REPAIR = 3223510987U;
+        static const AkUniqueID MUSIQUE_CREDITS = 356101965U;
         static const AkUniqueID NAIL = 864764337U;
         static const AkUniqueID NAIL_IT = 3147681939U;
         static const AkUniqueID PERFECT = 2161557176U;
@@ -35,7 +36,8 @@ namespace AK
         static const AkUniqueID STOP_MUSIC = 2837384057U;
         static const AkUniqueID STOP_STORM = 2196552987U;
         static const AkUniqueID SWEET = 2237492935U;
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID THUNDER = 186852181U;
+        static const AkUniqueID UI_NAIL_IT = 649548402U;
         static const AkUniqueID UI_NORMAL = 4196703455U;
         static const AkUniqueID UI_PERFECT = 1936177545U;
         static const AkUniqueID WOOSH_GROS_MARTEAU = 3355316005U;
@@ -51,6 +53,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID VOICES = 3313685232U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

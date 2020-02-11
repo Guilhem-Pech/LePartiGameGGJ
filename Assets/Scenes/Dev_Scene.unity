@@ -867,7 +867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &377098342
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1864,7 +1864,7 @@ MonoBehaviour:
   creditMusicEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7030d1637ff2dec49849cee18100df0c,
+    WwiseObjectReference: {fileID: 11400000, guid: f8174a578db2c26498b80bf044cb5e94,
       type: 2}
   gameOverEvent:
     idInternal: 0
