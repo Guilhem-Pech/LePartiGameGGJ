@@ -41,13 +41,13 @@ namespace States
         {
             int text = GameManager.Instance.NailProgress;
             
-            GameManager.Instance.NailProgress += (int) GameManager.Instance.HammerPower > 24
+            GameManager.Instance.NailProgress += (int) GameManager.Instance.HammerPower >= 24
                 ? 25
                 : (int) GameManager.Instance.HammerPower;
             
             
             GameManager.Instance.successUIAnimator.SetInteger(Percent,(int) GameManager.Instance.HammerPower);
-            GameManager.Instance.successUIAnimator.SetTrigger(TriggerLaunchSuccessAnim);
+            Timer.Register(0.5f, () => GameManager.Instance.successUIAnimator.SetTrigger(TriggerLaunchSuccessAnim));
             GameManager.Instance.HammerPower = 0;
             DOTween.To(() => text, value => text = value, GameManager.Instance.NailProgress, 0.6f).OnUpdate(() =>
             {

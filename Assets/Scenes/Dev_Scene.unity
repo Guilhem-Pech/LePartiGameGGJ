@@ -1871,6 +1871,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 77143b2e46a466541bd13084ac392020,
       type: 2}
+  thunderEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1a3a46f5dc0cb8d478af068557a30e76,
+      type: 2}
 --- !u!212 &879428426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3068,6 +3073,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab465199e923db344a7e69bae89d1abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thunderEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1a3a46f5dc0cb8d478af068557a30e76,
+      type: 2}
 --- !u!1 &1348220462
 GameObject:
   m_ObjectHideFlags: 0

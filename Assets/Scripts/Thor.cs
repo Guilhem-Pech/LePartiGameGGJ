@@ -11,13 +11,19 @@ public class Thor : MonoBehaviour
     public AK.Wwise.Event sparkleEvent;
     public AK.Wwise.Event creditMusicEvent;
     public AK.Wwise.Event gameOverEvent;
+    public AK.Wwise.Event thunderEvent;
     
     // Start is called before the first frame update
     private void OnFailedAnimEnded()
     {
         GameManager.Instance.thorAnimator.SetTrigger(NextState);
     }
-
+    
+    private void OnThunder()
+    {
+        thunderEvent.Post(gameObject);
+    }
+    
     private void OnSuccessAnimEnded()
     {
         GameManager.Instance.thorAnimator.SetTrigger(
