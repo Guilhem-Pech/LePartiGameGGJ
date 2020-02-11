@@ -2697,6 +2697,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 77143b2e46a466541bd13084ac392020,
       type: 2}
+  thunderEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1a3a46f5dc0cb8d478af068557a30e76,
+      type: 2}
+  nailedItUi:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 93ff573ac487c8c4cadc8df8e753c505,
+      type: 2}
 --- !u!1 &5691663033275367221
 GameObject:
   m_ObjectHideFlags: 0

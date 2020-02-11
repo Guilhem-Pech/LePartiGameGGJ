@@ -12,6 +12,7 @@ public class Thor : MonoBehaviour
     public AK.Wwise.Event creditMusicEvent;
     public AK.Wwise.Event gameOverEvent;
     public AK.Wwise.Event thunderEvent;
+    public AK.Wwise.Event nailedItUi;
     
     // Start is called before the first frame update
     private void OnFailedAnimEnded()
@@ -96,6 +97,8 @@ public class Thor : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Stop_Ambiance_calme", gameObject);
         AkSoundEngine.PostEvent(naildItEvent.Id, gameObject);
+        nailedItUi.Post(gameObject);
+
     }
 
     private void Explosion()
